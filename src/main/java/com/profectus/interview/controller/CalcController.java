@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/calc")
+@RequestMapping("/calc/v1")
 public class CalcController {
 
     private CalcService calcService;
