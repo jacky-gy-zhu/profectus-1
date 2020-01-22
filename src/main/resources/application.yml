@@ -16,7 +16,7 @@ spring:
       suffix: .jsp
 logging:
   level:
-    com.profectus.interview: debug
+    com.profectus.interview: info
   file:
     name: profectus.log
   pattern:
