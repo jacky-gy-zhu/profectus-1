@@ -35,3 +35,5 @@ Using abstract method factory design pattern to create data list of Transaction 
 Using strategy design pattern to do the calculation by different claim ways.
 
 DefaultExceptionHandler is used to handle different exceptions, which class should be maintain as projects go.
+
+##
