@@ -36,9 +36,7 @@ public class CalcServiceImpl implements CalcService {
 
     @Override
     public float calcProductClaim(ProductClaim productClaim) {
-        if (logger.isDebugEnabled()) {
-            logger.debug("ready to calc product claim for : " + productClaim.toString());
-        }
+        safeDebug("ready to calc product claim for : " + productClaim.toString());
 
         // build a Map for key -> productCode : value -> discount
         Map<String, Float> prdMap = productClaim.getProductList().stream()
@@ -48,9 +46,7 @@ public class CalcServiceImpl implements CalcService {
         OrderClaim orderClaim = new OrderClaim(productFactory,productClaim);
         List<Transaction> transactionList = orderClaim.findTransactionList();
 
-        if (logger.isDebugEnabled()) {
-            logger.debug("product transactionList found: " + transactionList.toString());
-        }
+        safeDebug("product transactionList found: " + transactionList.toString());
 
         // do calc
         Calculator calculator = new ProductClaimCalculator(prdMap);
@@ -58,19 +54,21 @@ public class CalcServiceImpl implements CalcService {
         return claimCalculator.calc(transactionList);
     }
 
+    private void safeDebug(String message){
+        if (logger.isDebugEnabled()) {
+            logger.debug(message);
+        }
+    }
+
     @Override
     public float calcTieredClaim(TieredClaim tieredClaim) {
-        if (logger.isDebugEnabled()) {
-            logger.debug("ready to calc tiered claim for : " + tieredClaim.toString());
-        }
+        safeDebug("ready to calc tiered claim for : " + tieredClaim.toString());
 
         // find transaction data from database accordingly
         OrderClaim orderClaim = new OrderClaim(tieredFactory,tieredClaim);
         List<Transaction> transactionList = orderClaim.findTransactionList();
 
-        if (logger.isDebugEnabled()) {
-            logger.debug("tiered transactionList found: " + transactionList.toString());
-        }
+        safeDebug("tiered transactionList found: " + transactionList.toString());
 
         // do calc
         Calculator calculator = new TieredClaimCalculator(tierConfig.list());
