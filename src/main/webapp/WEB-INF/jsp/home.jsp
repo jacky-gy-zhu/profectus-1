@@ -12,8 +12,8 @@
     <script src="webjars/vue/2.6.11/vue.min.js"></script>
 
     <!-- CUSTOMIZED CSS -->
-    <link href="${pageContext.servletContext.contextPath}/css/daterangepicker.min.css" rel="stylesheet">
-    <link href="${pageContext.servletContext.contextPath}/css/style.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/daterangepicker.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
 
 </head>
 <body class="text-center">
@@ -126,9 +126,9 @@
     </div>
 
     <!-- CUSTOMIZED JS -->
-    <script src="${pageContext.servletContext.contextPath}/js/moment.min.js"></script>
-    <script src="${pageContext.servletContext.contextPath}/js/daterangepicker.min.js"></script>
-    <script src="${pageContext.servletContext.contextPath}/js/script.js"></script>
+    <script src="${pageContext.request.contextPath}/js/moment.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/daterangepicker.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/script.js"></script>
 
 </body>
 </html>
