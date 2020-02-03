@@ -118,7 +118,7 @@
         </div>
 
         <p class="mt-5 mb-3 text-muted">
-            @Author: GUANGYU ZHU (Jacky Zhu)<br>
+            @Author: Jacky Zhu<br>
             Email: <a href="mailto:jacky.gy.zhu@gmail.com" target="_blank">jacky.gy.zhu@gmail.com</a><br>
             Tel: <a href="tel:0414843009" target="_blank">0414843009</a>
         </p>
