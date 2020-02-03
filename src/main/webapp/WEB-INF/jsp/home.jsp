@@ -126,7 +126,7 @@
     </div>
 
     <!-- CUSTOMIZED JS -->
-    <script src="${pageContext.request.contextPath}/js/moment.min.js"></script>
+    <script src="${pageContext.servletContext.contextPath}/js/moment.min.js"></script>
     <script src="${pageContext.request.contextPath}/js/daterangepicker.min.js"></script>
     <script src="${pageContext.request.contextPath}/js/script.js"></script>
 
