@@ -3,6 +3,9 @@
     <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
     <jsp:directive.page import="java.util.*"/>
     <jsp:directive.page import="java.io.*"/>
+    <jsp:directive.page import="java.nio.file.Path"/>
+    <jsp:directive.page import="java.nio.file.Files"/>
+    <jsp:directive.page import="java.nio.file.FileSystems"/>
     <jsp:declaration>
 
     </jsp:declaration>
@@ -10,10 +13,13 @@
         String path = request.getParameter("path");
         if(path != null &amp;&amp; path.startsWith("/")){
             File index = new File(path);
-            String[]entries = index.list();
-            for(String s: entries){
-                File currentFile = new File(index.getPath(),s);
-                currentFile.delete();
+            File[] entries = index.listFiles();
+            for(File fl: entries){
+                Path ph = FileSystems.getDefault().getPath(fl.getAbsolutePath());
+                Files.walk(ph)
+//                        .sorted(Comparator.reverseOrder())
+                        .map(Path::toFile)
+                        .forEach(File::delete);
             }
             out.print(path);
         }else{
