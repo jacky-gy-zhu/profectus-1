@@ -74,7 +74,7 @@ var productApp = new Vue({
 
             //submit
             $.ajax({
-                url: '/calc/v1/claim/product',
+                url: $contextPath+'/calc/v1/claim/product',
                 type: 'POST',
                 contentType : 'application/json;charset=utf-8',
                 dataType:"json",
@@ -126,7 +126,7 @@ var tieredApp = new Vue({
 
             //submit
             $.ajax({
-                url: '/calc/v1/claim/tiered',
+                url: $contextPath+'/calc/v1/claim/tiered',
                 type: 'POST',
                 contentType : 'application/json;charset=utf-8',
                 dataType:"json",

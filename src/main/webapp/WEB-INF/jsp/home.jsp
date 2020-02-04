@@ -14,6 +14,7 @@
     <!-- CUSTOMIZED CSS -->
     <link href="${pageContext.request.contextPath}/css/daterangepicker.min.css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet">
+    <script>$contextPath = '${pageContext.request.contextPath}'</script>
 
 </head>
 <body class="text-center">
