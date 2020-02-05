@@ -2,22 +2,23 @@ package com.profectus.interview.domain.entity;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Data
-public class Sales implements Transaction {
+public class Sales implements Transaction,Cloneable {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private int pid;
     private String productCode;
     private Date transactionDate;
     @Column(name="sale_amount")
     private float amount;
+
+    public Sales clone() throws CloneNotSupportedException {
+        return (Sales)super.clone();
+    }
 
 }

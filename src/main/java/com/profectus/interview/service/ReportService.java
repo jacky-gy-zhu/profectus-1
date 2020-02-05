@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import java.io.FileNotFoundException;
 import java.util.List;
 
-@Service
 public interface ReportService {
 
     List<Sales> exportSalesReport(String reportFormat) throws JRException, FileNotFoundException;
