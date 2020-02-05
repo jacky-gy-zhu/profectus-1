@@ -54,12 +54,6 @@ public class CalcServiceImpl implements CalcService {
         return claimCalculator.calc(transactionList);
     }
 
-    private void safeDebug(String message){
-        if (logger.isDebugEnabled()) {
-            logger.debug(message);
-        }
-    }
-
     @Override
     public float calcTieredClaim(TieredClaim tieredClaim) {
         safeDebug("ready to calc tiered claim for : " + tieredClaim.toString());
@@ -74,6 +68,12 @@ public class CalcServiceImpl implements CalcService {
         Calculator calculator = new TieredClaimCalculator(tierConfig.list());
         ClaimCalculator claimCalculator = new ClaimCalculator(calculator);
         return claimCalculator.calc(transactionList);
+    }
+
+    private void safeDebug(String message){
+        if (logger.isDebugEnabled()) {
+            logger.debug(message);
+        }
     }
 
 }
