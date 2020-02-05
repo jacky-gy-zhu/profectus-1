@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: product
   h2:
     console:
       enabled: true
@@ -13,7 +13,7 @@ spring:
       suffix: .jsp
 logging:
   level:
-    com.profectus.interview: info
+    com.profectus.interview: debug
   file:
     name: profectus.log
   pattern:
