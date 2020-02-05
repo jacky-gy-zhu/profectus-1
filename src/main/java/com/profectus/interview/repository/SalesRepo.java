@@ -2,14 +2,14 @@ package com.profectus.interview.repository;
 
 import com.profectus.interview.domain.entity.Sales;
 import com.profectus.interview.domain.entity.Transaction;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.CrudRepository;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
-public interface SalesRepo extends CrudRepository<Sales,Integer> {
+public interface SalesRepo extends JpaRepository<Sales,Integer> {
 
     /**
      * find Sales by list of product codes and date range
