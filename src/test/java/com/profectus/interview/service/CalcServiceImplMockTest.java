@@ -16,6 +16,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import java.sql.Date;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -31,12 +32,12 @@ public class CalcServiceImplMockTest {
     ProductFactory productFactory;
 
     @Test
-    public void testProductClaim(){
+    public void testProductClaim() {
         // pre-requisite productClaim
         ProductClaim productClaim = getProductClaim();
 
         // mock calcService
-        OrderClaim orderClaim = new OrderClaim(productFactory,productClaim);
+        OrderClaim orderClaim = new OrderClaim(productFactory, productClaim);
         List<Transaction> transactionList = orderClaim.findTransactionList();
         Mockito.when(transactionList).thenReturn(Arrays.asList(
                 new Transaction() {
@@ -105,16 +106,79 @@ public class CalcServiceImplMockTest {
     }
 
     private ProductClaim getProductClaim() {
-        ProductClaim productClaim = new ProductClaim();
-        productClaim.setDataSource(LabelConstants.SALES.getValue());
-        productClaim.setFromDate(Date.valueOf(LocalDate.of(2019, 12, 17)));
-        productClaim.setToDate(Date.valueOf(LocalDate.of(2020, 1, 9)));
-        productClaim.setProductList(Arrays.asList(
-                new Product("A", 10),
-                new Product("B", 20),
-                new Product("C", 30)
-        ));
+        ProductClaim productClaim = ProductClaimBuilder.aProductClaimBuilder()
+                .dataSource(LabelConstants.SALES.getValue())
+                .fromDate(Date.valueOf(LocalDate.of(2019, 12, 17)))
+                .toDate(Date.valueOf(LocalDate.of(2020, 1, 9)))
+                .withProductClaim(
+                        new Product("A", 10),
+                        new Product("B", 20),
+                        new Product("C", 30))
+                .build();
         return productClaim;
+    }
+
+    public static class ProductClaimBuilder {
+
+        private int dataSource;
+        private Date fromDate;
+        private Date toDate;
+        private Product[] products = new Product[]{};
+
+        public static ProductClaimBuilder aProductClaimBuilder() {
+            return new ProductClaimBuilder();
+        }
+
+        public ProductClaimBuilder dataSource(int dataSource) {
+            this.dataSource = dataSource;
+            return this;
+        }
+
+        public ProductClaimBuilder fromDate(Date fromDate) {
+            this.fromDate = fromDate;
+            return this;
+        }
+
+        public ProductClaimBuilder toDate(Date toDate) {
+            this.toDate = toDate;
+            return this;
+        }
+
+        public ProductClaimBuilder withProductClaim(Product... products) {
+            this.products = products;
+            return this;
+        }
+
+        public ProductClaim build() {
+            ProductClaim productClaim = new ProductClaim();
+            addDataSourceTo(productClaim);
+            addFromDateTo(productClaim);
+            addToDateTo(productClaim);
+            addProductsTo(productClaim);
+            return productClaim;
+        }
+
+        private void addToDateTo(ProductClaim productClaim) {
+            productClaim.setToDate(toDate);
+        }
+
+        private void addFromDateTo(ProductClaim productClaim) {
+            productClaim.setFromDate(fromDate);
+        }
+
+        private void addDataSourceTo(ProductClaim productClaim) {
+            productClaim.setDataSource(dataSource);
+        }
+
+        private void addProductsTo(ProductClaim productClaim) {
+            for (Product product : products) {
+                if (productClaim.getProductList() == null) {
+                    productClaim.setProductList(new ArrayList<>());
+                }
+                productClaim.getProductList().add(product);
+            }
+        }
+
     }
 
 }
