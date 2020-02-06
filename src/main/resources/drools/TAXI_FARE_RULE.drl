@@ -1,0 +1,35 @@
+import com.profectus.interview.domain.pojo.TaxiRide
+global com.profectus.interview.domain.pojo.Fare rideFare;
+dialect  "mvel"
+
+rule "Calculate Taxi Fare - Scenario 1"
+    when
+        taxiRideInstance:TaxiRide(nightSurcharge == false && distanceInMile < 10);
+    then
+        rideFare.setNightSurcharge(0);
+        rideFare.setRideFare(70);
+end;
+
+rule "Calculate Taxi Fare - Scenario 2"
+    when
+        taxiRideInstance:TaxiRide(nightSurcharge == false && distanceInMile >= 10);
+    then
+        rideFare.setNightSurcharge(0);
+        rideFare.setRideFare(70+(taxiRideInstance.distanceInMile-10)*3);
+end;
+
+rule "Calculate Taxi Fare - Scenario 3"
+    when
+        taxiRideInstance:TaxiRide(nightSurcharge == true && distanceInMile < 10);
+    then
+        rideFare.setNightSurcharge(taxiRideInstance.distanceInMile*2);
+        rideFare.setRideFare(70);
+end;
+
+rule "Calculate Taxi Fare - Scenario 4"
+    when
+        taxiRideInstance:TaxiRide(nightSurcharge == true && distanceInMile >= 10);
+    then
+        rideFare.setNightSurcharge(taxiRideInstance.distanceInMile*2);
+        rideFare.setRideFare(70+(taxiRideInstance.distanceInMile-10)*3);
+end;
