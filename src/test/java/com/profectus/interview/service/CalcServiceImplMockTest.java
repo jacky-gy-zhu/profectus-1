@@ -34,7 +34,6 @@ public class CalcServiceImplMockTest {
         MockitoAnnotations.initMocks(this);
     }
 
-
     @Test
     public void testProductClaim(){
         // pre-requisite productClaim
@@ -43,7 +42,7 @@ public class CalcServiceImplMockTest {
         // mock calcService
         OrderClaim orderClaim = new OrderClaim(productFactory,productClaim);
         List<Transaction> transactionList = orderClaim.findTransactionList();
-        Mockito.when(transactionList).thenAnswer(invocationOnMock -> Arrays.asList(
+        Mockito.when(transactionList).thenReturn(Arrays.asList(
                 new Transaction() {
                     @Override
                     public String getProductCode() {
