@@ -106,16 +106,14 @@ public class CalcServiceImplMockTest {
     }
 
     private ProductClaim getProductClaim() {
-        ProductClaim productClaim = ProductClaimBuilder.aProductClaimBuilder()
-                .dataSource(LabelConstants.SALES.getValue())
-                .fromDate(Date.valueOf(LocalDate.of(2019, 12, 17)))
-                .toDate(Date.valueOf(LocalDate.of(2020, 1, 9)))
-                .withProductClaim(
-                        new Product("A", 10),
-                        new Product("B", 20),
-                        new Product("C", 30))
+        return ProductClaimBuilder.aProductClaimBuilder()
+                .setDataSource(LabelConstants.SALES.getValue())
+                .setFromDate(Date.valueOf(LocalDate.of(2019, 12, 17)))
+                .setToDate(Date.valueOf(LocalDate.of(2020, 1, 9)))
+                .addProductClaim(new Product("A", 10))
+                .addProductClaim(new Product("B", 20))
+                .addProductClaim(new Product("C", 30))
                 .build();
-        return productClaim;
     }
 
     public static class ProductClaimBuilder {
@@ -123,29 +121,29 @@ public class CalcServiceImplMockTest {
         private int dataSource;
         private Date fromDate;
         private Date toDate;
-        private Product[] products = new Product[]{};
+        private List<Product> products = new ArrayList<>();
 
         public static ProductClaimBuilder aProductClaimBuilder() {
             return new ProductClaimBuilder();
         }
 
-        public ProductClaimBuilder dataSource(int dataSource) {
+        public ProductClaimBuilder setDataSource(int dataSource) {
             this.dataSource = dataSource;
             return this;
         }
 
-        public ProductClaimBuilder fromDate(Date fromDate) {
+        public ProductClaimBuilder setFromDate(Date fromDate) {
             this.fromDate = fromDate;
             return this;
         }
 
-        public ProductClaimBuilder toDate(Date toDate) {
+        public ProductClaimBuilder setToDate(Date toDate) {
             this.toDate = toDate;
             return this;
         }
 
-        public ProductClaimBuilder withProductClaim(Product... products) {
-            this.products = products;
+        public ProductClaimBuilder addProductClaim(Product product) {
+            products.add(product);
             return this;
         }
 
