@@ -7,12 +7,12 @@ import com.profectus.interview.service.factory.OrderClaim;
 import com.profectus.interview.service.factory.ProductFactory;
 import com.profectus.interview.service.impl.CalcServiceImpl;
 import com.profectus.interview.utils.LabelConstants;
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
+import org.mockito.junit.MockitoJUnitRunner;
 
 import java.sql.Date;
 import java.time.LocalDate;
@@ -21,6 +21,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@RunWith(MockitoJUnitRunner.class)
 public class CalcServiceImplMockTest {
 
     @InjectMocks
@@ -28,11 +29,6 @@ public class CalcServiceImplMockTest {
 
     @Mock
     ProductFactory productFactory;
-
-    @Before
-    public void init() {
-        MockitoAnnotations.initMocks(this);
-    }
 
     @Test
     public void testProductClaim(){
@@ -101,6 +97,10 @@ public class CalcServiceImplMockTest {
         ));
 
         final float claimTotal = calcService.calcProductClaim(productClaim);
+
+        // verify productFactory be invoked
+        Mockito.verify(productFactory).createTransactionList(productClaim);
+
         assertThat(claimTotal).isEqualTo(1770);
     }
 
