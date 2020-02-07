@@ -114,6 +114,15 @@
             <version>7.32.0.Final</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
+        <!-- calculator object heap size -->
+        <!-- long RamUsageEstimator.shallowSizeOf(Object obj) -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>8.4.1</version>
+        </dependency>
+
         <!-- SpringBoot test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
