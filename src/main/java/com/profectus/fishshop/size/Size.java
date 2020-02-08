@@ -2,8 +2,8 @@ package com.profectus.fishshop.size;
 
 public interface Size {
 
-    float price();
+    float getPrice();
 
-    String description();
+    String getDescription();
 
 }

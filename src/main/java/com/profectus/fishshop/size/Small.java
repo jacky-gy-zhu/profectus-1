@@ -3,13 +3,13 @@ package com.profectus.fishshop.size;
 public class Small implements Size {
 
     @Override
-    public float price() {
+    public float getPrice() {
         return 33;
     }
 
     @Override
-    public String description() {
-        return "small size";
+    public String getDescription() {
+        return "small size - " + getPrice();
     }
 
 }

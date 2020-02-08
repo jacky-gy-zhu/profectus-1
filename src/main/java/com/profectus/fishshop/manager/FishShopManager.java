@@ -18,11 +18,11 @@ public abstract class FishShopManager {
 
     protected abstract String name();
 
+    protected abstract Fish build();
+
     protected void signature() {
         System.out.println(name()+" is building fish...");
     }
-
-    protected abstract Fish build();
 
     public Fish buildFish(){
         return build();

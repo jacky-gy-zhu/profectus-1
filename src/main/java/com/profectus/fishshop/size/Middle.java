@@ -3,13 +3,13 @@ package com.profectus.fishshop.size;
 public class Middle implements Size {
 
     @Override
-    public float price() {
+    public float getPrice() {
         return 44;
     }
 
     @Override
-    public String description() {
-        return "middle size";
+    public String getDescription() {
+        return "middle size - " + getPrice();
     }
 
 }

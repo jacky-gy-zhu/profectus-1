@@ -1,10 +1,11 @@
 package com.profectus.fishshop.fish;
 
 import com.profectus.fishshop.color.Color;
+import com.profectus.fishshop.decorator.Settlement;
 import com.profectus.fishshop.env.Env;
 import com.profectus.fishshop.size.Size;
 
-public abstract class Fish {
+public abstract class Fish implements Settlement {
 
     private Env env;
     private Color color;

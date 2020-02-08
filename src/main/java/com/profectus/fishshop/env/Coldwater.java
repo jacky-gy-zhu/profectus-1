@@ -3,13 +3,13 @@ package com.profectus.fishshop.env;
 public class Coldwater implements Env {
 
     @Override
-    public float price() {
+    public float getPrice() {
         return 10;
     }
 
     @Override
-    public String description() {
-        return "cold water env";
+    public String getDescription() {
+        return "cold water env - " + getPrice();
     }
 
 }

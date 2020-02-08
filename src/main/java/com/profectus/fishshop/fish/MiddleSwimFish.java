@@ -6,4 +6,5 @@ public class MiddleSwimFish extends Fish {
     public void swim() {
         System.out.println("middle swimmer");
     }
+
 }

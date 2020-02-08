@@ -3,13 +3,13 @@ package com.profectus.fishshop.color;
 public class Red implements Color {
 
     @Override
-    public float price() {
+    public float getPrice() {
         return 3;
     }
 
     @Override
-    public String description() {
-        return "Red color";
+    public String getDescription() {
+        return "Red color - " + getPrice();
     }
 
 }

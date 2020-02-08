@@ -2,8 +2,8 @@ package com.profectus.fishshop.env;
 
 public interface Env {
 
-    float price();
+    float getPrice();
 
-    String description();
+    String getDescription();
 
 }

@@ -17,12 +17,12 @@ public abstract class FishBuilder {
     protected abstract void buildSize();
 
     public void buildPrice() {
-        float price = fish.getEnv().price() + fish.getColor().price() + fish.getSize().price();
+        float price = fish.getEnv().getPrice() + fish.getColor().getPrice() + fish.getSize().getPrice();
         fish.setPrice(price);
     }
 
     public void buildDescription() {
-        String description = fish.getEnv().description() + "\n" + fish.getColor().description() + "\n" + fish.getSize().description();
+        String description = fish.getEnv().getDescription() + "\n" + fish.getColor().getDescription() + "\n" + fish.getSize().getDescription();
         fish.setDescription(description);
     }
 

@@ -2,8 +2,8 @@ package com.profectus.fishshop.color;
 
 public interface Color {
 
-    float price();
+    float getPrice();
 
-    String description();
+    String getDescription();
 
 }
