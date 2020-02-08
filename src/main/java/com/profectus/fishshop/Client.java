@@ -14,8 +14,7 @@ import com.profectus.fishshop.fish.TopSwimFish;
 import com.profectus.fishshop.manager.FishShopManager;
 import com.profectus.fishshop.manager.Jacky;
 import com.profectus.fishshop.manager.Jessie;
-import com.profectus.fishshop.market.AuMarket;
-import com.profectus.fishshop.market.UsMarketHandler;
+import com.profectus.fishshop.market.*;
 import com.profectus.fishshop.proxy.Vendor;
 
 public class Client {
@@ -57,10 +56,23 @@ public class Client {
         AuMarket market = new Vendor(settlement, 10);
         System.out.println("market price : "+market.getPrice());
 
+        // currency adaptor
+        FishAdaptor fishAdaptor = new FishAdaptor(market);
+
         // adaptor to US market
-        FishAdaptor fishAdaptor = new FishAdaptor(market, 1.2f);
-        UsMarketHandler usMarketHandler = new UsMarketHandler();
-        usMarketHandler.proceed(fishAdaptor);
+        UsMarketHandler.getInstance().proceed(fishAdaptor);
+
+        // adaptor to Zh market
+        ZhMarketHandler.getInstance().proceed(fishAdaptor);
+
+        // adaptor to In market
+        InMarketHandler.getInstance().proceed(fishAdaptor);
+
+        // adaptor to Ca market
+        CaMarketHandler.getInstance().proceed(fishAdaptor);
+
+        // adaptor to Eu market
+        EuMarketHandler.INSTANCE.proceed(fishAdaptor);
 
     }
 

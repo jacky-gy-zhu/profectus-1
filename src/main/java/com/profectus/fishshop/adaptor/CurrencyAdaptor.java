@@ -1,17 +1,11 @@
 package com.profectus.fishshop.adaptor;
 
-import com.profectus.fishshop.market.UsMarket;
+import com.profectus.fishshop.market.*;
 
-public abstract class CurrencyAdaptor implements UsMarket {
-
-    @Override
-    public float getUsd() {
-        return 0;
-    }
+public abstract class CurrencyAdaptor implements UsMarket, ZhMarket, InMarket, CaMarket, EuMarket {
 
     @Override
     public void operate() {
-
     }
 
 }
