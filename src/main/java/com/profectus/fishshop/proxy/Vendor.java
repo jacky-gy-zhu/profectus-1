@@ -3,19 +3,19 @@ package com.profectus.fishshop.proxy;
 import com.profectus.fishshop.decorator.Settlement;
 import com.profectus.fishshop.market.AuMarket;
 
-public class Vendor implements AuMarket {
+public abstract class Vendor implements AuMarket {
 
     private Settlement settlement;
-    private float extraFee;
 
-    public Vendor(Settlement settlement, float extraFee) {
+    public Vendor(Settlement settlement) {
         this.settlement = settlement;
-        this.extraFee = extraFee;
     }
+
+    protected abstract float extraFee();
 
     @Override
     public float getPrice() {
-        return settlement.getPrice() + extraFee;
+        return settlement.getPrice() + extraFee();
     }
 
 }

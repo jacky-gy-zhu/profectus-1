@@ -8,6 +8,8 @@ import com.profectus.fishshop.decorator.Plant;
 import com.profectus.fishshop.decorator.Pump;
 import com.profectus.fishshop.decorator.Settlement;
 import com.profectus.fishshop.decorator.Stone;
+import com.profectus.fishshop.factory.MelFactory;
+import com.profectus.fishshop.factory.WorldFactory;
 import com.profectus.fishshop.fish.BottomSwimFish;
 import com.profectus.fishshop.fish.Fish;
 import com.profectus.fishshop.fish.TopSwimFish;
@@ -15,7 +17,6 @@ import com.profectus.fishshop.manager.FishShopManager;
 import com.profectus.fishshop.manager.Jacky;
 import com.profectus.fishshop.manager.Jessie;
 import com.profectus.fishshop.market.*;
-import com.profectus.fishshop.proxy.Vendor;
 
 public class Client {
 
@@ -57,7 +58,8 @@ public class Client {
         System.out.println(settlement.getPrice());
 
         // vendor proxy price
-        AuMarket market = new Vendor(settlement, 10);
+        WorldFactory factory = new MelFactory();
+        AuMarket market = factory.createVendor(settlement);
         System.out.println("market price : "+market.getPrice());
 
         // currency adaptor
