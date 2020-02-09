@@ -1,8 +1,11 @@
 package com.profectus.fishshop;
 
+import com.profectus.fishshop.command.CloseCommand;
+import com.profectus.fishshop.command.Command;
+import com.profectus.fishshop.command.Government;
+import com.profectus.fishshop.command.OpenCommand;
 import com.profectus.fishshop.facade.Boss;
 import com.profectus.fishshop.facade.ShopFacade;
-import com.profectus.fishshop.mediator.ChatMediator;
 import com.profectus.fishshop.mediator.Colleague;
 import com.profectus.fishshop.mediator.Mediator;
 import com.profectus.fishshop.mediator.ShopMediator;
@@ -15,6 +18,7 @@ public class Client {
         observer();
         facade();
         mediator();
+        command();
     }
 
     public static void observer() {
@@ -45,6 +49,19 @@ public class Client {
         mediator.registerColleague(sales);
 
         boss.sendMessage(Mediator.Message.START);
+    }
+
+    public static void command(){
+        Boss boss = new Boss(null);
+        Sales sales = new Sales(null);
+
+        Command openCommand = new OpenCommand(boss, sales);
+        Command closeCommand = new CloseCommand(boss, sales);
+
+        Government government = new Government(openCommand, closeCommand);
+
+        government.open();
+        government.close();
     }
 
 }
