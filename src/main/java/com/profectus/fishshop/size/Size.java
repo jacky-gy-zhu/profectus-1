@@ -1,6 +1,8 @@
 package com.profectus.fishshop.size;
 
-public interface Size {
+import java.io.Serializable;
+
+public interface Size extends Serializable {
 
     float getPrice();
 

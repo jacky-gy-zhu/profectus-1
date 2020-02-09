@@ -1,6 +1,8 @@
 package com.profectus.fishshop.color;
 
-public interface Color {
+import java.io.Serializable;
+
+public interface Color extends Serializable {
 
     float getPrice();
 

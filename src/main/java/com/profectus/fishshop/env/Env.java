@@ -1,6 +1,8 @@
 package com.profectus.fishshop.env;
 
-public interface Env {
+import java.io.Serializable;
+
+public interface Env extends Serializable {
 
     float getPrice();
 

@@ -43,8 +43,12 @@ public class Client {
         // how fish swim
         fish.swim();
 
+        // clone fish
+        //Fish cloneFish = fish.clone(); // shallow clone
+        Fish cloneFish = fish.deepClone(); // deep clone
+
         // decorator fish package
-        Settlement settlement = new Plant(fish);
+        Settlement settlement = new Plant(cloneFish);
         settlement = new Stone(settlement);
         settlement = new Pump(settlement);
 
