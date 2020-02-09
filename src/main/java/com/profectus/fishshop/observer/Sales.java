@@ -19,13 +19,21 @@ import com.profectus.fishshop.manager.FishShopManager;
 import com.profectus.fishshop.manager.Jacky;
 import com.profectus.fishshop.manager.Jessie;
 import com.profectus.fishshop.market.*;
+import com.profectus.fishshop.mediator.Colleague;
+import com.profectus.fishshop.mediator.Mediator;
 import com.profectus.fishshop.strategy.SellStrategy;
 import com.profectus.fishshop.strategy.SolidSell;
+
+import com.profectus.fishshop.mediator.Mediator.Message;
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class Sales implements Observer {
+public class Sales extends Colleague implements Observer {
+
+    public Sales(Mediator mediator) {
+        super(mediator);
+    }
 
     // add observer
     public void attach(Observable observable) {
@@ -34,8 +42,8 @@ public class Sales implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        ObservableItem observableItem = (ObservableItem)o;
-        System.out.println(observableItem.getClass().getSimpleName()+" price changed : "+observableItem.getPrice());
+        ObservableItem observableItem = (ObservableItem) o;
+        System.out.println(observableItem.getClass().getSimpleName() + " price changed : " + observableItem.getPrice());
     }
 
     public void quote() {
@@ -100,6 +108,23 @@ public class Sales implements Observer {
         // adaptor to Eu market
         EuMarketHandler.INSTANCE.proceed(fishAdaptor);
 
+    }
+
+    public void introduce() {
+        System.out.println("I'm a sales.");
+    }
+
+    public void goodBye() {
+        System.out.println("Bye bye!");
+    }
+
+    public void close() {
+        System.out.println("Sales close quote");
+    }
+
+    @Override
+    public void sendMessage(Message message) {
+        mediator.operation(message);
     }
 
 }

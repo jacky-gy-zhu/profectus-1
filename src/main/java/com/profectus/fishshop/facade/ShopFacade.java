@@ -8,8 +8,8 @@ public class ShopFacade {
     private Sales sales;
 
     public ShopFacade() {
-        boss = new Boss();
-        sales = new Sales();
+        boss = new Boss(null);
+        sales = new Sales(null);
     }
 
     public void open() {
