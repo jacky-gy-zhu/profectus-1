@@ -1,18 +1,20 @@
 package com.profectus.fishshop.flyweight;
 
-import java.util.Locale;
-import java.util.Map;
+import com.profectus.fishshop.strategy.SellStrategy;
+
 import java.util.HashMap;
+import java.util.Map;
 
 public class ShopFactory {
 
-    private Map<Locale, Shop> shopMap = new HashMap<>();
+    private Map<String, Shop> shopMap = new HashMap<>();
 
-    public Shop getShop(Locale locale) {
-        Shop shop = shopMap.get(locale);
+    public Shop getShop(SellStrategy sellStrategy) {
+        String strategyName = sellStrategy.getName();
+        Shop shop = shopMap.get(strategyName);
         if (shop == null) {
-            shop = new LocaleShop(locale);
-            shopMap.put(locale, shop);
+            shop = new FishShop(sellStrategy);
+            shopMap.put(strategyName, shop);
         }
         return shop;
     }

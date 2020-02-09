@@ -19,6 +19,8 @@ import com.profectus.fishshop.manager.FishShopManager;
 import com.profectus.fishshop.manager.Jacky;
 import com.profectus.fishshop.manager.Jessie;
 import com.profectus.fishshop.market.*;
+import com.profectus.fishshop.strategy.SellStrategy;
+import com.profectus.fishshop.strategy.SolidSell;
 
 import java.util.Locale;
 
@@ -57,9 +59,11 @@ public class Client {
         settlement = new Stone(settlement);
         settlement = new Pump(settlement);
 
-        // shop sell
+        // shop sell (flyweight)
         ShopFactory shopFactory = new ShopFactory();
-        Shop shop = shopFactory.getShop(Locale.US);
+        // sell strategy
+        SellStrategy sellStrategy = new SolidSell();
+        Shop shop = shopFactory.getShop(sellStrategy);
         shop.sell(settlement);
 
         // vendor proxy price
