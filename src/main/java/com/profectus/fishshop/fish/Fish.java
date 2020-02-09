@@ -1,6 +1,7 @@
 package com.profectus.fishshop.fish;
 
 import com.profectus.fishshop.color.Color;
+import com.profectus.fishshop.composite.Species;
 import com.profectus.fishshop.decorator.Settlement;
 import com.profectus.fishshop.env.Env;
 import com.profectus.fishshop.size.Size;
@@ -12,6 +13,7 @@ public abstract class Fish implements Settlement, Cloneable, Serializable {
     private Env env;
     private Color color;
     private Size size;
+    private Species species;
     private float price;
     private String description;
 
@@ -25,6 +27,14 @@ public abstract class Fish implements Settlement, Cloneable, Serializable {
 
     public void setSize(Size size) {
         this.size = size;
+    }
+
+    public Species getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(Species species) {
+        this.species = species;
     }
 
     public Env getEnv() {

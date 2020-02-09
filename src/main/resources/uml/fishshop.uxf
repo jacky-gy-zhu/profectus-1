@@ -7,13 +7,14 @@
       <x>850</x>
       <y>870</y>
       <w>110</w>
-      <h>160</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>/Fish/
 --
 env
 color
 size
+species
 price
 --
 price()
@@ -744,12 +745,12 @@ build():Fish</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>890</x>
-      <y>1020</y>
+      <y>1040</y>
       <w>30</w>
-      <h>190</h>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -759,7 +760,7 @@ build():Fish</panel_attributes>
       <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>HomeFishBuilder</panel_attributes>
+    <panel_attributes>ColdBlueBigFishBuilder</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -770,7 +771,7 @@ build():Fish</panel_attributes>
       <w>140</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>WildFishBuilder</panel_attributes>
+    <panel_attributes>MarineGreenSmallFishBuilder</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1376,6 +1377,104 @@ sell()</panel_attributes>
       <h>70</h>
     </coordinates>
     <panel_attributes>Strategy Pattern
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>1180</x>
+      <y>1420</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Species
+--
+getName()
+getFamilyTree()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1020</x>
+      <y>1650</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Composite
+--
+getName()
+getFamilyTree()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1320</x>
+      <y>1650</y>
+      <w>120</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Leaf
+--
+getName()
+getFamilyTree()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>1510</y>
+      <w>200</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1250</x>
+      <y>1510</y>
+      <w>150</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>1500</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;150.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>980</y>
+      <w>290</w>
+      <h>490</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;470.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1160</x>
+      <y>1590</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Composite Pattern
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
