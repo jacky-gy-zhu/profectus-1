@@ -1,10 +1,11 @@
 package com.profectus.fishshop.size;
 
-public class Middle implements Size {
+import com.profectus.fishshop.observer.ObservableItem;
 
-    @Override
-    public float getPrice() {
-        return 44;
+public class Middle extends ObservableItem implements Size {
+
+    {
+        super.price = 44;
     }
 
     @Override
