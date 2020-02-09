@@ -13,10 +13,14 @@ import com.profectus.fishshop.factory.WorldFactory;
 import com.profectus.fishshop.fish.BottomSwimFish;
 import com.profectus.fishshop.fish.Fish;
 import com.profectus.fishshop.fish.TopSwimFish;
+import com.profectus.fishshop.flyweight.Shop;
+import com.profectus.fishshop.flyweight.ShopFactory;
 import com.profectus.fishshop.manager.FishShopManager;
 import com.profectus.fishshop.manager.Jacky;
 import com.profectus.fishshop.manager.Jessie;
 import com.profectus.fishshop.market.*;
+
+import java.util.Locale;
 
 public class Client {
 
@@ -53,9 +57,10 @@ public class Client {
         settlement = new Stone(settlement);
         settlement = new Pump(settlement);
 
-        // output package
-        System.out.println(settlement.getDescription());
-        System.out.println(settlement.getPrice());
+        // shop sell
+        ShopFactory shopFactory = new ShopFactory();
+        Shop shop = shopFactory.getShop(Locale.US);
+        shop.sell(settlement);
 
         // vendor proxy price
         WorldFactory factory = new MelFactory();
