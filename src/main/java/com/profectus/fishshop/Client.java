@@ -13,6 +13,8 @@ import com.profectus.fishshop.interpreter.TerminalExpression;
 import com.profectus.fishshop.mediator.Colleague;
 import com.profectus.fishshop.mediator.Mediator;
 import com.profectus.fishshop.mediator.ShopMediator;
+import com.profectus.fishshop.memento.Caretaker;
+import com.profectus.fishshop.memento.Original;
 import com.profectus.fishshop.observer.Sales;
 import com.profectus.fishshop.size.Big;
 import com.profectus.fishshop.state.Activity;
@@ -32,6 +34,7 @@ public class Client {
         visitor();
         iterator();
         interpreter();
+        memento();
     }
 
     public static void observer() {
@@ -142,6 +145,19 @@ public class Client {
 
         System.out.println(orExp.interpret("Jacky"));
         System.out.println(andExp.interpret("Fish Shop"));
+    }
+
+    public static void memento() {
+        Caretaker caretaker = new Caretaker();
+        Original original = new Original();
+        original.setState("step1");
+        caretaker.add(original.saveStateMemento());
+        original.setState("step2");
+        caretaker.add(original.saveStateMemento());
+        original.setState("step3");
+        caretaker.add(original.saveStateMemento());
+
+        System.out.println(caretaker.get(1).getState());
     }
 
 }
