@@ -6,6 +6,10 @@ import com.profectus.fishshop.command.Government;
 import com.profectus.fishshop.command.OpenCommand;
 import com.profectus.fishshop.facade.Boss;
 import com.profectus.fishshop.facade.ShopFacade;
+import com.profectus.fishshop.interpreter.AndExpression;
+import com.profectus.fishshop.interpreter.Expression;
+import com.profectus.fishshop.interpreter.OrExpression;
+import com.profectus.fishshop.interpreter.TerminalExpression;
 import com.profectus.fishshop.mediator.Colleague;
 import com.profectus.fishshop.mediator.Mediator;
 import com.profectus.fishshop.mediator.ShopMediator;
@@ -27,6 +31,7 @@ public class Client {
         state();
         visitor();
         iterator();
+        interpreter();
     }
 
     public static void observer() {
@@ -124,6 +129,19 @@ public class Client {
             Person person = it.next();
             System.out.println(person.getName());
         }
+    }
+
+    public static void interpreter() {
+        Expression robert = new TerminalExpression("Jacky");
+        Expression john = new TerminalExpression("Jessie");
+        Expression orExp = new OrExpression(robert, john);
+
+        Expression julie = new TerminalExpression("Fish");
+        Expression married = new TerminalExpression("Shop");
+        Expression andExp = new AndExpression(julie, married);
+
+        System.out.println(orExp.interpret("Jacky"));
+        System.out.println(andExp.interpret("Fish Shop"));
     }
 
 }
