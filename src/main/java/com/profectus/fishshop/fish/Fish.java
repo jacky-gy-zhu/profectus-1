@@ -29,12 +29,12 @@ public abstract class Fish implements Settlement, Cloneable, Serializable {
         this.size = size;
     }
 
-    public Species getSpecies() {
-        return species;
-    }
-
     public void setSpecies(Species species) {
         this.species = species;
+    }
+
+    public Species getSpecies() {
+        return species;
     }
 
     public Env getEnv() {

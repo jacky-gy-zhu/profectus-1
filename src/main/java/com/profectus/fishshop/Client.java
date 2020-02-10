@@ -12,6 +12,7 @@ import com.profectus.fishshop.mediator.ShopMediator;
 import com.profectus.fishshop.observer.Sales;
 import com.profectus.fishshop.size.Big;
 import com.profectus.fishshop.state.Activity;
+import com.profectus.fishshop.visitor.*;
 
 import java.util.stream.IntStream;
 
@@ -23,6 +24,7 @@ public class Client {
         mediator();
         command();
         state();
+        visitor();
     }
 
     public static void observer() {
@@ -74,6 +76,30 @@ public class Client {
         IntStream.range(0,10)
                 .forEach(n -> activity.action(n));
 
+    }
+
+    public static void visitor() {
+        Person worker = new Worker();
+        Person student = new Student();
+        Person fishFan = new FishFan();
+        // show people who will purchase
+        PersonStructure structure = new PersonStructure();
+        structure.attach(fishFan); // add people
+        structure.attach(student);
+        Action action = new PurchaseAction(); //act purchase
+        structure.performAll(action); // show results
+
+        // show people who will watch
+        structure = new PersonStructure();
+        structure.attach(student); // add people
+        action = new WatchAction(); //act watch
+        structure.performAll(action); // show results
+
+        // show people who will go away
+        structure = new PersonStructure();
+        structure.attach(worker); // add people
+        action = new WalkAwayAction(); //act go away
+        structure.performAll(action); // show results
     }
 
 }
