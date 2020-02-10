@@ -11,6 +11,9 @@ import com.profectus.fishshop.mediator.Mediator;
 import com.profectus.fishshop.mediator.ShopMediator;
 import com.profectus.fishshop.observer.Sales;
 import com.profectus.fishshop.size.Big;
+import com.profectus.fishshop.state.Activity;
+
+import java.util.stream.IntStream;
 
 public class Client {
 
@@ -19,6 +22,7 @@ public class Client {
         facade();
         mediator();
         command();
+        state();
     }
 
     public static void observer() {
@@ -62,6 +66,14 @@ public class Client {
 
         government.open();
         government.close();
+    }
+
+    public static void state() {
+        Activity activity = new Activity();
+
+        IntStream.range(0,10)
+                .forEach(n -> activity.action(n));
+
     }
 
 }
