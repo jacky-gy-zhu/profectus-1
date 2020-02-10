@@ -5,7 +5,7 @@ import com.profectus.fishshop.strategy.SellStrategy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ShopFactory {
+public class ShopFlyweightFactory {
 
     private Map<String, Shop> shopMap = new HashMap<>();
 

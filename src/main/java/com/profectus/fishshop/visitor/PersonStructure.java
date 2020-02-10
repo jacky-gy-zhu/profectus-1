@@ -6,31 +6,30 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class PersonStructure implements Aggregate<Person> {
+public class PersonStructure implements Aggregate<T> {
 
-    private List<Person> list;
+    private List<T> list;
 
     public PersonStructure() {
         list = new ArrayList<>();
     }
 
     @Override
-    public void add(Person person) {
+    public void add(T person) {
         list.add(person);
     }
 
-    public void remove(Person person) {
+    public void remove(T person) {
         list.remove(person);
     }
 
     public void performAll(Action action) {
-        list.stream()
-                .forEach(p -> p.accept(action));
+        list.forEach(p -> p.accept(action));
     }
 
     @Override
     public Iterator iterator() {
-        return new ConcreteIterator<Person>();
+        return new ConcreteIterator<T>();
     }
 
     private class ConcreteIterator<T> implements Iterator<T> {

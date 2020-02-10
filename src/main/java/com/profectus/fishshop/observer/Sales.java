@@ -14,7 +14,7 @@ import com.profectus.fishshop.fish.BottomSwimFish;
 import com.profectus.fishshop.fish.Fish;
 import com.profectus.fishshop.fish.TopSwimFish;
 import com.profectus.fishshop.flyweight.Shop;
-import com.profectus.fishshop.flyweight.ShopFactory;
+import com.profectus.fishshop.flyweight.ShopFlyweightFactory;
 import com.profectus.fishshop.manager.FishShopManager;
 import com.profectus.fishshop.manager.Jacky;
 import com.profectus.fishshop.manager.Jessie;
@@ -79,8 +79,8 @@ public class Sales extends Colleague implements Observer {
         settlement = new Stone(settlement);
         settlement = new Pump(settlement);
 
-        // shop sell (flyweight)
-        ShopFactory shopFactory = new ShopFactory();
+        // shop flyweight
+        ShopFlyweightFactory shopFactory = new ShopFlyweightFactory();
         // sell strategy
         SellStrategy sellStrategy = new SolidSell();
         Shop shop = shopFactory.getShop(sellStrategy);

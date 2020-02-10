@@ -95,9 +95,9 @@ public class Client {
 
     public static void visitor() {
         System.out.println("---------visitor()---------");
-        Person worker = new Worker();
-        Person student = new Student();
-        Person fishFan = new FishFan();
+        T worker = new Worker();
+        T student = new Student();
+        T fishFan = new FishFan();
         // show people who will purchase
         PersonStructure structure = new PersonStructure();
         structure.add(fishFan); // add people
@@ -120,21 +120,22 @@ public class Client {
 
     public static void iterator() {
         System.out.println("---------iterator()---------");
-        Person worker = new Worker();
-        Person student = new Student();
-        Person fishFan = new FishFan();
+        T worker = new Worker();
+        T student = new Student();
+        T fishFan = new FishFan();
         PersonStructure structure = new PersonStructure();
         structure.add(worker);
         structure.add(student);
         structure.add(fishFan);
-        Iterator<Person> it = structure.iterator();
+        Iterator<T> it = structure.iterator();
         while (it.hasNext()) {
-            Person person = it.next();
+            T person = it.next();
             System.out.println(person.getName());
         }
     }
 
     public static void interpreter() {
+        System.out.println("---------interpreter()---------");
         Expression robert = new TerminalExpression("Jacky");
         Expression john = new TerminalExpression("Jessie");
         Expression orExp = new OrExpression(robert, john);
@@ -148,6 +149,7 @@ public class Client {
     }
 
     public static void memento() {
+        System.out.println("---------memento()---------");
         Caretaker caretaker = new Caretaker();
         Original original = new Original();
         original.setState("step1");
