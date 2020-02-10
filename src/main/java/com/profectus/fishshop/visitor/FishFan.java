@@ -7,16 +7,21 @@ public class FishFan implements Person {
         action.performFishFan(this);
     }
 
+    @Override
+    public String getName() {
+        return "FishFan";
+    }
+
     public void buy() {
-        System.out.println("FishFan buy");
+        System.out.println(getName() + " buy");
     }
 
     public void go() {
-        System.out.println("FishFan go away");
+        System.out.println(getName() + " go away");
     }
 
     public void see() {
-        System.out.println("FishFan see");
+        System.out.println(getName() + " see");
     }
 
 }

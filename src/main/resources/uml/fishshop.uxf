@@ -2244,7 +2244,7 @@ performFishFan(fishFan:FishFan)
       <w>240</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>WalkWayAction
+    <panel_attributes>WalkAwayAction
 --
 performWorker(worker:Worker)
 performStudent(student:Student)
@@ -2311,8 +2311,8 @@ performFishFan(fishFan:FishFan)</panel_attributes>
 --
 list:List&lt;Person&gt;
 --
-attach(person:Person)
-detach(person:Person)
+add(person:Person)
+remove(person:Person)
 performAll(action:Action)</panel_attributes>
     <additional_attributes/>
   </element>
@@ -2392,7 +2392,94 @@ performAll(action:Action)</panel_attributes>
     </coordinates>
     <panel_attributes>Visitor Pattern
 /*pre-requisite: objects solid, behavior variety*/
-/*violate Interface Dependency Principle*/
+/*violate Dependency Inversion Principle*/
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>2550</x>
+      <y>2270</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Aggregate&lt;T&gt;
+--
+iterator():Iterator&lt;T&gt;
+add(T t):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2360</x>
+      <y>2330</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>2700</x>
+      <y>2480</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Iterator&lt;E&gt;
+--
+hasNext():boolean
+next():E</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2270</x>
+      <y>2670</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ConcreteIterator&lt;E&gt;
+--
+hasNext():boolean
+next():E</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2440</x>
+      <y>2540</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>260.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2620</x>
+      <y>2360</y>
+      <w>150</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>130.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>2470</x>
+      <y>2430</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Iterator Pattern
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>

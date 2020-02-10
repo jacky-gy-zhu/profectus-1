@@ -4,4 +4,6 @@ public interface Person {
 
     void accept(Action action);
 
+    String getName();
+
 }

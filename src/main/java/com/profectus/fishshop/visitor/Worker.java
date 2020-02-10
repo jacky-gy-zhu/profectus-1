@@ -7,16 +7,21 @@ public class Worker implements Person {
         action.performWorker(this);
     }
 
+    @Override
+    public String getName() {
+        return "Worker";
+    }
+
     public void buy() {
-        System.out.println("Worker buy");
+        System.out.println(getName() + " buy");
     }
 
     public void go() {
-        System.out.println("Worker go away");
+        System.out.println(getName() + " go away");
     }
 
     public void see() {
-        System.out.println("Worker see");
+        System.out.println(getName() + " see");
     }
 
 }

@@ -14,6 +14,7 @@ import com.profectus.fishshop.size.Big;
 import com.profectus.fishshop.state.Activity;
 import com.profectus.fishshop.visitor.*;
 
+import java.util.Iterator;
 import java.util.stream.IntStream;
 
 public class Client {
@@ -25,9 +26,11 @@ public class Client {
         command();
         state();
         visitor();
+        iterator();
     }
 
     public static void observer() {
+        System.out.println("---------observer()---------");
         Sales sales = new Sales(null);
         sales.quote();
 
@@ -40,12 +43,14 @@ public class Client {
     }
 
     public static void facade() {
+        System.out.println("---------facade()---------");
         // facade
         ShopFacade shopFacade = new ShopFacade();
         shopFacade.open();
     }
 
     public static void mediator() {
+        System.out.println("---------mediator()---------");
         Mediator mediator = new ShopMediator();
 //        Mediator mediator = new ChatMediator();
         Colleague boss = new Boss(mediator);
@@ -58,6 +63,7 @@ public class Client {
     }
 
     public static void command(){
+        System.out.println("---------command()---------");
         Boss boss = new Boss(null);
         Sales sales = new Sales(null);
 
@@ -71,6 +77,7 @@ public class Client {
     }
 
     public static void state() {
+        System.out.println("---------state()---------");
         Activity activity = new Activity();
 
         IntStream.range(0,10)
@@ -79,27 +86,44 @@ public class Client {
     }
 
     public static void visitor() {
+        System.out.println("---------visitor()---------");
         Person worker = new Worker();
         Person student = new Student();
         Person fishFan = new FishFan();
         // show people who will purchase
         PersonStructure structure = new PersonStructure();
-        structure.attach(fishFan); // add people
-        structure.attach(student);
+        structure.add(fishFan); // add people
+        structure.add(student);
         Action action = new PurchaseAction(); //act purchase
         structure.performAll(action); // show results
 
         // show people who will watch
         structure = new PersonStructure();
-        structure.attach(student); // add people
+        structure.add(student); // add people
         action = new WatchAction(); //act watch
         structure.performAll(action); // show results
 
         // show people who will go away
         structure = new PersonStructure();
-        structure.attach(worker); // add people
+        structure.add(worker); // add people
         action = new WalkAwayAction(); //act go away
         structure.performAll(action); // show results
+    }
+
+    public static void iterator() {
+        System.out.println("---------iterator()---------");
+        Person worker = new Worker();
+        Person student = new Student();
+        Person fishFan = new FishFan();
+        PersonStructure structure = new PersonStructure();
+        structure.add(worker);
+        structure.add(student);
+        structure.add(fishFan);
+        Iterator<Person> it = structure.iterator();
+        while (it.hasNext()) {
+            Person person = it.next();
+            System.out.println(person.getName());
+        }
     }
 
 }
