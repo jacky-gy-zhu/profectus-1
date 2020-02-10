@@ -1,6 +1,5 @@
 package com.profectus.interview.service;
 
-import com.profectus.interview.domain.pojo.Fare;
 import com.profectus.interview.domain.pojo.TaxiRide;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,8 +21,8 @@ public class TaxiFareCalculatorServiceTest {
         TaxiRide taxiRide = new TaxiRide();
         taxiRide.setNightSurcharge(false);
         taxiRide.setDistanceInMile(9);
-        Fare rideFare = new Fare();
-        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide, rideFare);
+        
+        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide);
 
         assertEquals(70, totalCharge);
     }
@@ -33,8 +32,8 @@ public class TaxiFareCalculatorServiceTest {
         TaxiRide taxiRide = new TaxiRide();
         taxiRide.setNightSurcharge(false);
         taxiRide.setDistanceInMile(19);
-        Fare rideFare = new Fare();
-        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide, rideFare);
+        
+        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide);
 
         assertEquals(97, totalCharge);
     }
@@ -44,8 +43,8 @@ public class TaxiFareCalculatorServiceTest {
         TaxiRide taxiRide = new TaxiRide();
         taxiRide.setNightSurcharge(true);
         taxiRide.setDistanceInMile(9);
-        Fare rideFare = new Fare();
-        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide, rideFare);
+        
+        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide);
 
         assertEquals(88, totalCharge);
     }
@@ -55,8 +54,8 @@ public class TaxiFareCalculatorServiceTest {
         TaxiRide taxiRide = new TaxiRide();
         taxiRide.setNightSurcharge(true);
         taxiRide.setDistanceInMile(19);
-        Fare rideFare = new Fare();
-        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide, rideFare);
+        
+        float totalCharge = taxiFareCalculatorService.calculateFare(taxiRide);
 
         assertEquals(135, totalCharge);
     }

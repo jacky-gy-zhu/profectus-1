@@ -17,7 +17,8 @@ public class TaxiFareCalculatorServiceImpl implements TaxiFareCalculatorService 
     }
 
     @Override
-    public float calculateFare(TaxiRide taxiRide, Fare rideFare) {
+    public float calculateFare(TaxiRide taxiRide) {
+        Fare rideFare = new Fare();
         KieSession kieSession = kieContainer.newKieSession();
         kieSession.setGlobal("rideFare", rideFare);
         kieSession.insert(taxiRide);
