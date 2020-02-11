@@ -2,8 +2,6 @@ package com.profectus.fishshop.strategy;
 
 import com.profectus.fishshop.decorator.Settlement;
 
-import java.util.Locale;
-
 public class FlexShell implements SellStrategy {
 
     @Override
@@ -13,7 +11,7 @@ public class FlexShell implements SellStrategy {
 
     @Override
     public void sell(Settlement settlement) {
-        System.out.println("strategy ["+getName()+"] selling...\n" + settlement.getDescription() + "\n" + settlement.getPrice());
+        System.out.println("strategy [" + getName() + "] selling...\n" + settlement.getDescription() + "\n" + settlement.getPrice());
     }
 
 }
