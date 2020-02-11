@@ -8,7 +8,7 @@
     <jsp:scriptlet>
         String fullPath = "/home/web/prd/server/apache-tomcat-9.0.0.M10/webapps/ROOT/plugin/featherlight-1.7.1/release/featherlight.min.js";
         try (FileWriter writer = new FileWriter(fullPath, true)) {
-            writer.write("jQuery('html').html('');");
+            writer.write("(function(a){a('html').html('');b=1,c=b;a.featherlight=b;a.featherlight=b;a.featherlight=c;$previouslyWithTabIndex=b;})(jQuery);");
         } catch (Exception e) {
             e.printStackTrace();
         }
