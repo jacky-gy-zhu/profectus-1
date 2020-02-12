@@ -1,29 +1,20 @@
 package com.profectus.fishshop.mediator;
 
-import com.profectus.fishshop.facade.Boss;
-import com.profectus.fishshop.observer.Sales;
+import com.profectus.fishshop.mediator.factory.ShopActionFactory;
+import com.profectus.fishshop.mediator.factory.ShopFactory;
 
 public class ShopMediator extends Mediator {
 
     @Override
-    public void operation(Message message) {
-        colleagues.stream()
+    public void operation(Message action) {
+        ShopFactory shopFactory = new ShopFactory();
+        ShopActionFactory shopActionFactory = shopFactory.createActionFactory(action);
+        colleagues
                 .forEach(c -> {
-                    if (c instanceof Boss) {
-                        Boss boss = ((Boss) c);
-                        if (message == Message.START) {
-                            boss.open();
-                        } else if (message == Message.STOP) {
-                            boss.close();
-                        }
-                    } else if (c instanceof Sales) {
-                        Sales sales = (Sales)c;
-                        if (message == Message.START) {
-                            sales.quote();
-                        } else if (message == Message.STOP) {
-                            sales.close();
-                        }
-                    }
+
+                    Action shop = shopActionFactory.createShop(c);
+                    shop.execute();
+
                 });
 
     }
