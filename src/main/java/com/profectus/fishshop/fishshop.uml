@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="3631.064455364455" y="2840.0">com.profectus.fishshop.interpreter.Expression</node>
+    <node x="11547.867936164257" y="3440.0">com.profectus.fishshop.state.Activity</node>
+    <node x="4061.571212121212" y="1142.0">com.profectus.fishshop.market.EuMarketHandler</node>
+    <node x="838.0625" y="1444.0">com.profectus.fishshop.builder.MarineGreenSmallFishBuilder</node>
+    <node x="3894.821212121212" y="1868.0">com.profectus.fishshop.observer.Sales</node>
+    <node x="12134.367936164259" y="3151.0">com.profectus.fishshop.iterator.Aggregate</node>
+    <node x="4054.689455364455" y="3484.0">com.profectus.fishshop.command.Government</node>
+    <node x="10147.018891897093" y="2840.0">com.profectus.fishshop.mediator.factory.ShopStopFactory</node>
+    <node x="8566.328565062387" y="2438.0">com.profectus.fishshop.mediator.ShopStopSales</node>
+    <node x="6158.321212121212" y="1455.0">com.profectus.fishshop.decorator.Pump</node>
+    <node x="1672.1826855758527" y="404.0">com.profectus.fishshop.fish.Fish</node>
+    <node x="6786.571212121212" y="1142.0">com.profectus.fishshop.factory.WorldFactory</node>
+    <node x="10721.694912063074" y="3516.0">com.profectus.fishshop.mediator.ShopMediator</node>
+    <node x="3036.663756760045" y="116.0">com.profectus.fishshop.color.Color</node>
+    <node x="7959.703565062388" y="2840.0">com.profectus.fishshop.mediator.factory.ChatStartFactory</node>
+    <node x="3669.446212121212" y="879.0">com.profectus.fishshop.flyweight.Shop</node>
+    <node x="3732.2137567600453" y="1487.0">com.profectus.fishshop.flyweight.ShopFlyweightFactory</node>
+    <node x="6986.821212121212" y="1487.0">com.profectus.fishshop.factory.SynFactory</node>
+    <node x="4282.571212121212" y="1131.0">com.profectus.fishshop.strategy.SolidSell</node>
+    <node x="9125.953565062387" y="3483.0">com.profectus.fishshop.memento.Original</node>
+    <node x="7534.953565062388" y="2438.0">com.profectus.fishshop.mediator.ChatStartSales</node>
+    <node x="0.0" y="1142.0">com.profectus.fishshop.size.Big</node>
+    <node x="2647.463756760045" y="536.0">com.profectus.fishshop.env.Coldwater</node>
+    <node x="4717.821212121212" y="1142.0">com.profectus.fishshop.adaptor.CurrencyAdaptor</node>
+    <node x="1921.2364840327728" y="879.0">com.profectus.fishshop.fish.BottomSwimFish</node>
+    <node x="7777.953565062388" y="2438.0">com.profectus.fishshop.mediator.ShopStartSales</node>
+    <node x="6134.734590093379" y="1088.0">com.profectus.fishshop.decorator.SettlementDecorator</node>
+    <node x="5205.821212121212" y="1131.0">com.profectus.fishshop.market.InMarketHandler</node>
+    <node x="3289.4637567600453" y="536.0">com.profectus.fishshop.color.Red</node>
+    <node x="3075.4637567600453" y="536.0">com.profectus.fishshop.color.Blue</node>
+    <node x="9585.890180710845" y="2840.0">com.profectus.fishshop.mediator.factory.ShopStartFactory</node>
+    <node x="214.0" y="1142.0">com.profectus.fishshop.size.Middle</node>
+    <node x="4935.821212121212" y="1131.0">com.profectus.fishshop.market.UsMarketHandler</node>
+    <node x="5886.901256760046" y="1455.0">com.profectus.fishshop.decorator.Plant</node>
+    <node x="429.0" y="1142.0">com.profectus.fishshop.size.Small</node>
+    <node x="4426.404545454545" y="1476.0">com.profectus.fishshop.market.CaMarketHandler</node>
+    <node x="4559.821212121212" y="868.0">com.profectus.fishshop.market.CaMarket</node>
+    <node x="7993.953565062388" y="2459.0">com.profectus.fishshop.mediator.factory.ChatActionFactory</node>
+    <node x="9352.953565062387" y="3858.0">com.profectus.fishshop.Client</node>
+    <node x="1766.6356060606058" y="1487.0">com.profectus.fishshop.manager.Jessie</node>
+    <node x="6372.321212121212" y="1455.0">com.profectus.fishshop.decorator.Stone</node>
+    <node x="12910.305436164259" y="2796.0">com.profectus.fishshop.visitor.FishFan</node>
+    <node x="2433.463756760045" y="536.0">com.profectus.fishshop.env.Tropical</node>
+    <node x="13127.742936164259" y="3494.0">com.profectus.fishshop.visitor.WalkAwayAction</node>
+    <node x="11079.122411503078" y="891.0">com.profectus.fishshop.mediator.Mediator.Message</node>
+    <node x="7074.571212121212" y="1142.0">com.profectus.fishshop.proxy.SynVendor</node>
+    <node x="217.5" y="868.0">com.profectus.fishshop.observer.ObservableItem</node>
+    <node x="8781.328565062387" y="2438.0">com.profectus.fishshop.mediator.ChatStartBoss</node>
+    <node x="6561.571212121212" y="1142.0">com.profectus.fishshop.proxy.MelVendor</node>
+    <node x="9021.328565062387" y="2438.0">com.profectus.fishshop.mediator.ChatStopBoss</node>
+    <node x="8460.72308911629" y="2840.0">com.profectus.fishshop.mediator.factory.ChatStopFactory</node>
+    <node x="6880.575661521951" y="858.0">com.profectus.fishshop.proxy.Vendor</node>
+    <node x="4611.689455364455" y="3495.0">com.profectus.fishshop.command.OpenCommand</node>
+    <node x="11329.367936164259" y="3141.0">com.profectus.fishshop.state.EatState</node>
+    <node x="3504.4637567600453" y="1422.0">com.profectus.fishshop.adaptor.FishAdaptor</node>
+    <node x="12493.867936164259" y="3140.0">com.profectus.fishshop.visitor.Action</node>
+    <node x="3924.821212121212" y="868.0">com.profectus.fishshop.strategy.SellStrategy</node>
+    <node x="5779.571212121212" y="1131.0">com.profectus.fishshop.market.ZhMarketHandler</node>
+    <node x="12605.742936164259" y="3494.0">com.profectus.fishshop.visitor.PurchaseAction</node>
+    <node x="9453.581391897093" y="3141.0">com.profectus.fishshop.memento.Memento</node>
+    <node x="8324.328565062387" y="2438.0">com.profectus.fishshop.mediator.ChatStopSales</node>
+    <node x="3170.689455364455" y="3141.0">com.profectus.fishshop.interpreter.TerminalExpression</node>
+    <node x="12496.367936164259" y="2796.0">com.profectus.fishshop.visitor.Worker</node>
+    <node x="2861.4637567600453" y="536.0">com.profectus.fishshop.color.Green</node>
+    <node x="5469.821212121212" y="1131.0">com.profectus.fishshop.strategy.FlexShell</node>
+    <node x="12597.46918789364" y="2448.0">com.profectus.fishshop.visitor.T</node>
+    <node x="4929.901256760046" y="868.0">com.profectus.fishshop.market.UsMarket</node>
+    <node x="12232.367936164259" y="3462.0">com.profectus.fishshop.visitor.PersonStructure</node>
+    <node x="10772.21243330563" y="1890.0">com.profectus.fishshop.facade.Boss</node>
+    <node x="6586.321212121212" y="1487.0">com.profectus.fishshop.factory.MelFactory</node>
+    <node x="644.0" y="1110.0">com.profectus.fishshop.composite.Leaf</node>
+    <node x="10424.203565062387" y="2438.0">com.profectus.fishshop.mediator.ShopStopBoss</node>
+    <node x="7354.953565062388" y="2438.0">com.profectus.fishshop.facade.ShopFacade</node>
+    <node x="5617.571212121212" y="868.0">com.profectus.fishshop.market.ZhMarket</node>
+    <node x="1226.289772727273" y="879.0">com.profectus.fishshop.fish.MiddleSwimFish</node>
+    <node x="4353.689455364455" y="3495.0">com.profectus.fishshop.command.CloseCommand</node>
+    <node x="13365.909602830925" y="2796.0">com.profectus.fishshop.visitor.Student</node>
+    <node x="8800.68988254555" y="1466.0">com.profectus.fishshop.mediator.Colleague</node>
+    <node x="12866.742936164259" y="3494.0">com.profectus.fishshop.visitor.WatchAction</node>
+    <node x="3727.0160189091857" y="0.0">com.profectus.fishshop.market.AuMarket</node>
+    <node x="9392.953565062387" y="3484.0">com.profectus.fishshop.memento.Caretaker</node>
+    <node x="807.7614840327724" y="116.0">com.profectus.fishshop.composite.Species</node>
+    <node x="10928.33743330563" y="1110.0">com.profectus.fishshop.mediator.Mediator</node>
+    <node x="1612.2606060606058" y="1110.0">com.profectus.fishshop.manager.FishShopManager</node>
+    <node x="3419.689455364455" y="3495.0">com.profectus.fishshop.interpreter.AndExpression</node>
+    <node x="3566.689455364455" y="3162.0">com.profectus.fishshop.interpreter.SymbolExpression</node>
+    <node x="9038.81488254555" y="1934.0">com.profectus.fishshop.mediator.Action</node>
+    <node x="1566.4231060606062" y="1487.0">com.profectus.fishshop.manager.Jacky</node>
+    <node x="6340.891018909186" y="116.0">com.profectus.fishshop.decorator.Settlement</node>
+    <node x="10216.203565062387" y="2438.0">com.profectus.fishshop.mediator.ShopStartBoss</node>
+    <node x="11936.367936164259" y="3141.0">com.profectus.fishshop.state.SwimState</node>
+    <node x="9758.018891897093" y="3162.0">com.profectus.fishshop.mediator.factory.ChatFactory</node>
+    <node x="1176.0625" y="1444.0">com.profectus.fishshop.builder.ColdBlueBigFishBuilder</node>
+    <node x="2219.463756760045" y="536.0">com.profectus.fishshop.env.Marine</node>
+    <node x="9954.203565062387" y="2459.0">com.profectus.fishshop.mediator.factory.ShopActionFactory</node>
+    <node x="3800.321212121212" y="1121.0">com.profectus.fishshop.flyweight.FishShop</node>
+    <node x="401.3864840327724" y="116.0">com.profectus.fishshop.size.Size</node>
+    <node x="4485.571212121212" y="1154.0">com.profectus.fishshop.market.CaMarketHandler.Inner</node>
+    <node x="855.0" y="1088.0">com.profectus.fishshop.composite.Composite</node>
+    <node x="3741.689455364455" y="3495.0">com.profectus.fishshop.interpreter.OrExpression</node>
+    <node x="1601.1731060606062" y="836.0">com.profectus.fishshop.builder.FishBuilder</node>
+    <node x="4112.064455364455" y="3162.0">com.profectus.fishshop.command.Command</node>
+    <node x="11524.367936164259" y="3141.0">com.profectus.fishshop.state.HappyState</node>
+    <node x="5225.071212121212" y="868.0">com.profectus.fishshop.market.InMarket</node>
+    <node x="2129.2364840327728" y="879.0">com.profectus.fishshop.fish.TopSwimFish</node>
+    <node x="2394.6637567600455" y="116.0">com.profectus.fishshop.env.Env</node>
+    <node x="9584.953565062387" y="3516.0">com.profectus.fishshop.mediator.ChatMediator</node>
+    <node x="4127.821212121212" y="868.0">com.profectus.fishshop.market.EuMarket</node>
+    <node x="10785.562940062387" y="3162.0">com.profectus.fishshop.mediator.factory.ShopFactory</node>
+    <node x="11727.367936164259" y="3141.0">com.profectus.fishshop.state.HungryState</node>
+    <node x="11651.008682745633" y="2840.0">com.profectus.fishshop.state.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.profectus.fishshop.fish.TopSwimFish" target="com.profectus.fishshop.fish.Fish">
+      <point x="0.0" y="-28.0" />
+      <point x="2208.2364840327728" y="786.0" />
+      <point x="1881.2281401213068" y="786.0" />
+      <point x="99.5454545454545" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.adaptor.FishAdaptor">
+      <point x="-30.78787878787898" y="-115.0" />
+      <point x="3991.033333333333" y="1728.0" />
+      <point x="3653.7137567600453" y="1728.0" />
+      <point x="49.75" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.MelFactory" target="com.profectus.fishshop.factory.WorldFactory">
+      <point x="100.125" y="-28.0" />
+      <point x="6819.946212121212" y="1402.0" />
+      <point x="6831.071212121212" y="1402.0" />
+      <point x="-89.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.CaMarketHandler.Inner" target="com.profectus.fishshop.market.CaMarketHandler">
+      <point x="32.66666666666697" y="16.0" />
+      <point x="4567.237878787879" y="1392.0" />
+      <point x="4582.029545454545" y="1392.0" />
+      <point x="31.125" y="-39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.facade.Boss">
+      <point x="117.42857142857065" y="-28.0" />
+      <point x="8715.151660544861" y="2756.0" />
+      <point x="10698.062940062387" y="2756.0" />
+      <point x="10698.062940062387" y="2358.0" />
+      <point x="10881.43118330563" y="2358.0" />
+      <point x="-7.28125" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStartBoss" target="com.profectus.fishshop.facade.Boss">
+      <point x="62.66666666666606" y="-49.0" />
+      <point x="10372.870231729055" y="2328.0" />
+      <point x="10837.74368330563" y="2328.0" />
+      <point x="-50.96875" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.Jacky" target="com.profectus.fishshop.builder.FishBuilder">
+      <point x="-63.375" y="-28.0" />
+      <point x="1588.1731060606062" y="1048.0" />
+      <point x="1718.5064393939392" y="1048.0" />
+      <point x="21.33333333333303" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.PersonStructure">
+      <point x="40.37837837837833" y="-127.0" />
+      <point x="9476.331943440768" y="3748.0" />
+      <point x="12281.867936164259" y="3748.0" />
+      <point x="-49.5" y="82.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopActionFactory" target="com.profectus.fishshop.mediator.Action">
+      <point x="-60.5" y="-28.0" />
+      <point x="10014.703565062387" y="2218.0" />
+      <point x="9175.31488254555" y="2218.0" />
+      <point x="52.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.CaMarketHandler" target="com.profectus.fishshop.market.CaMarket">
+      <point x="93.375" y="-39.0" />
+      <point x="4644.279545454545" y="1392.0" />
+      <point x="4594.071212121212" y="1392.0" />
+      <point x="-34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.FishShopManager" target="com.profectus.fishshop.builder.FishBuilder">
+      <point x="0.0" y="-60.0" />
+      <point x="1738.2606060606058" y="1068.0" />
+      <point x="1761.1731060606062" y="1068.0" />
+      <point x="64.0" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatMediator" target="com.profectus.fishshop.mediator.factory.ChatFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="9687.453565062387" y="3330.0" />
+      <point x="9850.018891897093" y="3330.0" />
+      <point x="-92.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.Activity" target="com.profectus.fishshop.state.HappyState">
+      <point x="-21.107142857143117" y="-104.0" />
+      <point x="11625.260793307116" y="3370.0" />
+      <point x="11554.867936164259" y="3370.0" />
+      <point x="-61.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopFactory" target="com.profectus.fishshop.mediator.factory.ShopActionFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="10971.062940062387" y="2960.0" />
+      <point x="10399.518891897093" y="2960.0" />
+      <point x="10399.518891897093" y="2556.0" />
+      <point x="10165.953565062387" y="2556.0" />
+      <point x="90.75" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.FishBuilder" target="com.profectus.fishshop.fish.Fish">
+      <point x="48.0" y="-71.0" />
+      <point x="1745.1731060606062" y="816.0" />
+      <point x="1781.6826855758527" y="816.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.proxy.MelVendor" target="com.profectus.fishshop.proxy.Vendor">
+      <point x="68.0" y="-28.0" />
+      <point x="6731.571212121212" y="1058.0" />
+      <point x="6919.147090093378" y="1058.0" />
+      <point x="-51.42857142857156" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.Activity" target="com.profectus.fishshop.state.SwimState">
+      <point x="63.32142857142844" y="-104.0" />
+      <point x="11709.689364735686" y="3400.0" />
+      <point x="11965.867936164259" y="3400.0" />
+      <point x="-59.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.CloseCommand" target="com.profectus.fishshop.observer.Sales">
+      <point x="0.0" y="-49.0" />
+      <point x="4472.689455364455" y="2408.0" />
+      <point x="3950.383712121212" y="2408.0" />
+      <point x="-71.4375" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.memento.Caretaker">
+      <point x="0.0" y="-127.0" />
+      <point x="-43.0" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.Jessie" target="com.profectus.fishshop.manager.FishShopManager">
+      <point x="-64.875" y="-28.0" />
+      <point x="50.40000000000009" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.WatchAction">
+      <point x="62.810810810809926" y="-127.0" />
+      <point x="9498.764375873197" y="3798.0" />
+      <point x="12987.242936164259" y="3798.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WalkAwayAction" target="com.profectus.fishshop.visitor.Worker">
+      <point x="-30.125" y="-50.0" />
+      <point x="13218.117936164259" y="3360.0" />
+      <point x="12745.367936164259" y="3360.0" />
+      <point x="12745.367936164259" y="3060.0" />
+      <point x="12654.951269497593" y="3060.0" />
+      <point x="72.08333333333394" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopFactory" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="148.39999999999964" y="-28.0" />
+      <point x="11119.462940062389" y="3070.0" />
+      <point x="11589.258682745634" y="3070.0" />
+      <point x="11589.258682745634" y="1058.0" />
+      <point x="11164.3446337253" y="1058.0" />
+      <point x="26.222222222222626" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.T">
+      <point x="35.891891891891646" y="-127.0" />
+      <point x="9471.845456954281" y="3738.0" />
+      <point x="12123.867936164259" y="3738.0" />
+      <point x="12123.867936164259" y="2746.0" />
+      <point x="12609.82633075078" y="2746.0" />
+      <point x="-74.14285714285688" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Worker" target="com.profectus.fishshop.visitor.Action">
+      <point x="43.25" y="72.0" />
+      <point x="12626.117936164259" y="3060.0" />
+      <point x="12545.510793307116" y="3060.0" />
+      <point x="-68.85714285714312" y="-50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.mediator.factory.ChatActionFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="-34.25" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStartBoss" target="com.profectus.fishshop.facade.Boss">
+      <point x="82.125" y="-49.0" />
+      <point x="8972.953565062387" y="2308.0" />
+      <point x="10808.61868330563" y="2308.0" />
+      <point x="-80.09375" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.command.OpenCommand">
+      <point x="-26.91891891891828" y="-127.0" />
+      <point x="9409.034646143471" y="3718.0" />
+      <point x="4729.189455364455" y="3718.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.factory.MelFactory">
+      <point x="84.66666666666697" y="-115.0" />
+      <point x="4106.487878787879" y="1728.0" />
+      <point x="6719.821212121212" y="1728.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.facade.Boss">
+      <point x="103.71428571428623" y="-28.0" />
+      <point x="9810.604466425131" y="2766.0" />
+      <point x="10709.062940062387" y="2766.0" />
+      <point x="10709.062940062387" y="2368.0" />
+      <point x="10895.99368330563" y="2368.0" />
+      <point x="7.28125" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatMediator" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="87.85714285714312" y="-28.0" />
+      <point x="9775.310707919532" y="3390.0" />
+      <point x="11274.86793616426" y="3390.0" />
+      <point x="11274.86793616426" y="1342.0" />
+      <point x="11123.452817921017" y="1342.0" />
+      <point x="61.615384615384755" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.decorator.Plant">
+      <point x="61.57575757575796" y="-115.0" />
+      <point x="4083.39696969697" y="1698.0" />
+      <point x="5983.901256760046" y="1698.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.CurrencyAdaptor" target="com.profectus.fishshop.market.CaMarket">
+      <point x="-39.600000000000364" y="-28.0" />
+      <point x="4777.2212121212115" y="1048.0" />
+      <point x="4662.571212121212" y="1048.0" />
+      <point x="34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.SynFactory" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="100.125" y="-28.0" />
+      <point x="7220.446212121212" y="1402.0" />
+      <point x="13563.437380608702" y="1402.0" />
+      <point x="13563.437380608702" y="314.0" />
+      <point x="6530.041018909185" y="314.0" />
+      <point x="92.14999999999964" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.CloseCommand" target="com.profectus.fishshop.command.Command">
+      <point x="-95.20000000000073" y="-49.0" />
+      <point x="4377.489455364454" y="3410.0" />
+      <point x="4210.064455364455" y="3410.0" />
+      <point x="28.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.ShopFlyweightFactory" target="com.profectus.fishshop.flyweight.FishShop">
+      <point x="31.0" y="-28.0" />
+      <point x="3887.2137567600453" y="1392.0" />
+      <point x="3900.321212121212" y="1392.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.composite.Leaf">
+      <point x="-93.80000000000018" y="-71.0" />
+      <point x="1216.2624999999998" y="1302.0" />
+      <point x="787.25" y="1302.0" />
+      <point x="47.75" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.BottomSwimFish" target="com.profectus.fishshop.fish.Fish">
+      <point x="0.0" y="-28.0" />
+      <point x="2015.2364840327728" y="796.0" />
+      <point x="1861.3190492122167" y="796.0" />
+      <point x="79.63636363636351" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.Worker">
+      <point x="49.351351351351695" y="-127.0" />
+      <point x="9485.304916413741" y="3768.0" />
+      <point x="12440.867936164259" y="3768.0" />
+      <point x="12440.867936164259" y="3020.0" />
+      <point x="12510.784602830925" y="3020.0" />
+      <point x="-72.08333333333394" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.composite.Species">
+      <point x="-13.400000000000546" y="-71.0" />
+      <point x="1296.6624999999995" y="1272.0" />
+      <point x="1149.3125" y="1272.0" />
+      <point x="1149.3125" y="364.0" />
+      <point x="939.0739840327724" y="364.0" />
+      <point x="35.8125" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.facade.Boss" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="29.125" y="-93.0" />
+      <point x="10917.83743330563" y="1058.0" />
+      <point x="11125.011300391969" y="1058.0" />
+      <point x="-13.111111111111313" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.EatState" target="com.profectus.fishshop.state.Activity">
+      <point x="0.0" y="49.0" />
+      <point x="11410.867936164259" y="3410.0" />
+      <point x="11568.975079021402" y="3410.0" />
+      <point x="-77.39285714285688" y="-104.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.env.Coldwater" target="com.profectus.fishshop.env.Env">
+      <point x="0.0" y="-39.0" />
+      <point x="2744.463756760045" y="234.0" />
+      <point x="2569.263756760046" y="234.0" />
+      <point x="77.60000000000002" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.strategy.SolidSell" target="com.profectus.fishshop.strategy.SellStrategy">
+      <point x="-45.75" y="-39.0" />
+      <point x="4328.321212121212" y="1068.0" />
+      <point x="4062.071212121212" y="1068.0" />
+      <point x="45.75" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.interpreter.OrExpression">
+      <point x="-49.351351351351695" y="-127.0" />
+      <point x="9386.602213711038" y="3768.0" />
+      <point x="3887.689455364455" y="3768.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.strategy.SolidSell">
+      <point x="15.393939393939036" y="-115.0" />
+      <point x="4037.215151515151" y="1638.0" />
+      <point x="4374.071212121212" y="1638.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="69.14285714285688" y="-28.0" />
+      <point x="10337.16174903995" y="2746.0" />
+      <point x="10632.703565062387" y="2746.0" />
+      <point x="10632.703565062387" y="1778.0" />
+      <point x="8999.425176663197" y="1778.0" />
+      <point x="82.23529411764684" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.interpreter.TerminalExpression">
+      <point x="-62.810810810809926" y="-127.0" />
+      <point x="9373.142754251578" y="3798.0" />
+      <point x="3284.689455364455" y="3798.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.Fish" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="97.33333333333326" y="-171.0" />
+      <point x="1879.0160189091857" y="274.0" />
+      <point x="6345.741018909186" y="274.0" />
+      <point x="-92.14999999999964" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.Fish" target="com.profectus.fishshop.composite.Species">
+      <point x="-48.666666666666515" y="-171.0" />
+      <point x="1733.0160189091866" y="334.0" />
+      <point x="962.9489840327724" y="334.0" />
+      <point x="59.6875" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.strategy.FlexShell" target="com.profectus.fishshop.strategy.SellStrategy">
+      <point x="-45.75" y="-39.0" />
+      <point x="5515.571212121212" y="1038.0" />
+      <point x="4092.571212121212" y="1038.0" />
+      <point x="76.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.strategy.SolidSell" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="45.75" y="-39.0" />
+      <point x="4419.821212121212" y="314.0" />
+      <point x="6384.541018909185" y="314.0" />
+      <point x="-53.350000000000364" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatFactory" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="147.20000000000073" y="-28.0" />
+      <point x="10089.218891897093" y="3060.0" />
+      <point x="11578.258682745634" y="3060.0" />
+      <point x="11578.258682745634" y="1068.0" />
+      <point x="11151.233522614191" y="1068.0" />
+      <point x="13.111111111111313" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="100.060606060606" y="-115.0" />
+      <point x="4121.881818181818" y="1748.0" />
+      <point x="7289.071212121212" y="1748.0" />
+      <point x="7289.071212121212" y="1028.0" />
+      <point x="11085.677967058633" y="1028.0" />
+      <point x="-52.44444444444525" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.EatState" target="com.profectus.fishshop.state.State">
+      <point x="0.0" y="-49.0" />
+      <point x="11410.867936164259" y="3090.0" />
+      <point x="11661.592016078966" y="3090.0" />
+      <point x="-52.91666666666697" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.flyweight.ShopFlyweightFactory">
+      <point x="-7.696969696969973" y="-115.0" />
+      <point x="4014.124242424242" y="1698.0" />
+      <point x="3918.2137567600453" y="1698.0" />
+      <point x="62.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Action" target="com.profectus.fishshop.visitor.Worker">
+      <point x="-103.28571428571377" y="-50.0" />
+      <point x="12511.082221878545" y="3050.0" />
+      <point x="12597.284602830925" y="3050.0" />
+      <point x="14.41666666666606" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.Fish" target="com.profectus.fishshop.size.Size">
+      <point x="-97.33333333333326" y="-171.0" />
+      <point x="1684.3493522425197" y="354.0" />
+      <point x="537.1864840327726" y="354.0" />
+      <point x="38.80000000000018" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.market.CaMarketHandler">
+      <point x="23.09090909090901" y="-115.0" />
+      <point x="4044.912121212121" y="1648.0" />
+      <point x="4550.904545454545" y="1648.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.builder.FishBuilder">
+      <point x="67.0" y="-71.0" />
+      <point x="1377.0625" y="1362.0" />
+      <point x="1544.9231060606062" y="1362.0" />
+      <point x="1544.9231060606062" y="1028.0" />
+      <point x="1675.8397727272732" y="1028.0" />
+      <point x="-21.33333333333303" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.WorldFactory" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-66.75" y="-28.0" />
+      <point x="6853.321212121212" y="1038.0" />
+      <point x="6797.272090093378" y="1038.0" />
+      <point x="6797.272090093378" y="354.0" />
+      <point x="6491.241018909186" y="354.0" />
+      <point x="53.350000000000364" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStartSales" target="com.profectus.fishshop.mediator.Action">
+      <point x="65.33333333333303" y="-49.0" />
+      <point x="7941.286898395721" y="2178.0" />
+      <point x="9063.31488254555" y="2178.0" />
+      <point x="-59.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.manager.Jessie">
+      <point x="-69.27272727272702" y="-115.0" />
+      <point x="3952.548484848485" y="1778.0" />
+      <point x="1853.1356060606058" y="1778.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Plant" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-64.66666666666697" y="-60.0" />
+      <point x="5919.234590093378" y="1392.0" />
+      <point x="5195.321212121212" y="1392.0" />
+      <point x="5195.321212121212" y="334.0" />
+      <point x="6403.941018909187" y="334.0" />
+      <point x="-33.94999999999982" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.Activity" target="com.profectus.fishshop.state.HungryState">
+      <point x="21.107142857143117" y="-104.0" />
+      <point x="11667.475079021402" y="3370.0" />
+      <point x="11758.867936164259" y="3370.0" />
+      <point x="-63.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.composite.Composite">
+      <point x="-67.0" y="-71.0" />
+      <point x="1243.0625" y="1292.0" />
+      <point x="974.375" y="1292.0" />
+      <point x="23.875" y="82.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.fish.Fish">
+      <point x="-100.060606060606" y="-115.0" />
+      <point x="3921.760606060606" y="1818.0" />
+      <point x="1495.8397727272722" y="1818.0" />
+      <point x="1495.8397727272722" y="796.0" />
+      <point x="1741.8645037576707" y="796.0" />
+      <point x="-39.81818181818198" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.state.Activity">
+      <point x="31.405405405404963" y="-127.0" />
+      <point x="9467.358970467794" y="3728.0" />
+      <point x="11695.617936164257" y="3728.0" />
+      <point x="49.25" y="104.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.composite.Leaf" target="com.profectus.fishshop.composite.Species">
+      <point x="0.0" y="-60.0" />
+      <point x="739.5" y="384.0" />
+      <point x="843.5739840327724" y="384.0" />
+      <point x="-59.6875" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.Colleague" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="0.0" y="-49.0" />
+      <point x="8917.18988254555" y="1372.0" />
+      <point x="10959.145125613322" y="1372.0" />
+      <point x="-102.69230769230853" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.MelFactory" target="com.profectus.fishshop.proxy.Vendor">
+      <point x="33.375" y="-28.0" />
+      <point x="6753.196212121212" y="1402.0" />
+      <point x="6776.071212121212" y="1402.0" />
+      <point x="6776.071212121212" y="1068.0" />
+      <point x="6944.861375807664" y="1068.0" />
+      <point x="-25.71428571428578" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.FishShop" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-25.0" y="-49.0" />
+      <point x="3875.321212121212" y="294.0" />
+      <point x="6365.141018909186" y="294.0" />
+      <point x="-72.75" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.CurrencyAdaptor" target="com.profectus.fishshop.market.UsMarket">
+      <point x="0.0" y="-28.0" />
+      <point x="4816.821212121212" y="1048.0" />
+      <point x="4964.151256760046" y="1048.0" />
+      <point x="-34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PersonStructure" target="com.profectus.fishshop.visitor.T">
+      <point x="-24.75" y="-82.0" />
+      <point x="12306.617936164259" y="3420.0" />
+      <point x="12325.867936164259" y="3420.0" />
+      <point x="12325.867936164259" y="2756.0" />
+      <point x="12634.540616465067" y="2756.0" />
+      <point x="-49.42857142857065" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStopBoss" target="com.profectus.fishshop.facade.Boss">
+      <point x="81.75" y="-49.0" />
+      <point x="9212.078565062387" y="2318.0" />
+      <point x="10823.18118330563" y="2318.0" />
+      <point x="-65.53125" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopActionFactory" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="60.5" y="-28.0" />
+      <point x="10135.703565062387" y="1788.0" />
+      <point x="8985.719294310256" y="1788.0" />
+      <point x="68.52941176470631" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.FishShopManager" target="com.profectus.fishshop.fish.Fish">
+      <point x="84.0" y="-60.0" />
+      <point x="1822.2606060606058" y="1068.0" />
+      <point x="1803.6731060606062" y="1068.0" />
+      <point x="1803.6731060606062" y="816.0" />
+      <point x="1801.5917764849437" y="816.0" />
+      <point x="19.90909090909099" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.command.Command">
+      <point x="-44.86486486486501" y="-127.0" />
+      <point x="9391.088700197524" y="3758.0" />
+      <point x="4044.189455364455" y="3758.0" />
+      <point x="4044.189455364455" y="3410.0" />
+      <point x="4126.064455364455" y="3410.0" />
+      <point x="-56.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Pump" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-64.66666666666697" y="-60.0" />
+      <point x="6190.654545454545" y="1382.0" />
+      <point x="5769.071212121212" y="1382.0" />
+      <point x="5769.071212121212" y="354.0" />
+      <point x="6423.3410189091865" y="354.0" />
+      <point x="-14.550000000000182" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.mediator.Action">
+      <point x="-34.57142857142935" y="-28.0" />
+      <point x="10233.447463325663" y="2576.0" />
+      <point x="9476.766065062387" y="2576.0" />
+      <point x="9476.766065062387" y="2228.0" />
+      <point x="9168.31488254555" y="2228.0" />
+      <point x="45.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PurchaseAction" target="com.profectus.fishshop.visitor.Student">
+      <point x="90.375" y="-50.0" />
+      <point x="12816.617936164259" y="3400.0" />
+      <point x="13464.742936164259" y="3400.0" />
+      <point x="13464.742936164259" y="3120.0" />
+      <point x="13437.992936164259" y="3120.0" />
+      <point x="-14.41666666666606" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.size.Big">
+      <point x="-80.75675675675666" y="-127.0" />
+      <point x="9355.19680830563" y="3838.0" />
+      <point x="62.42342342342363" y="3838.0" />
+      <point x="62.42342342342363" y="1402.0" />
+      <point x="32.33333333333303" y="1402.0" />
+      <point x="-64.66666666666697" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Action" target="com.profectus.fishshop.visitor.Student">
+      <point x="68.85714285714312" y="-50.0" />
+      <point x="12683.225079021402" y="3110.0" />
+      <point x="13380.326269497591" y="3110.0" />
+      <point x="-72.08333333333394" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.Jessie" target="com.profectus.fishshop.builder.FishBuilder">
+      <point x="21.625" y="-28.0" />
+      <point x="1874.7606060606058" y="1058.0" />
+      <point x="1782.5064393939392" y="1058.0" />
+      <point x="85.33333333333303" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.env.Tropical" target="com.profectus.fishshop.env.Env">
+      <point x="0.0" y="-39.0" />
+      <point x="38.799999999999955" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PurchaseAction" target="com.profectus.fishshop.visitor.Action">
+      <point x="-30.125" y="-50.0" />
+      <point x="12696.117936164259" y="3400.0" />
+      <point x="12614.367936164259" y="3400.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.mediator.Action">
+      <point x="78.28571428571377" y="-28.0" />
+      <point x="8174.989279348102" y="2706.0" />
+      <point x="9010.828565062387" y="2706.0" />
+      <point x="9010.828565062387" y="2258.0" />
+      <point x="9119.31488254555" y="2258.0" />
+      <point x="-3.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStartBoss" target="com.profectus.fishshop.mediator.Action">
+      <point x="-27.375" y="-49.0" />
+      <point x="8863.453565062387" y="2238.0" />
+      <point x="9105.31488254555" y="2238.0" />
+      <point x="-17.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.interpreter.AndExpression" target="com.profectus.fishshop.interpreter.Expression">
+      <point x="-100.66666666666606" y="-49.0" />
+      <point x="3470.022788697789" y="3420.0" />
+      <point x="3506.501955364455" y="3420.0" />
+      <point x="3506.501955364455" y="3100.0" />
+      <point x="3704.6358839358845" y="3100.0" />
+      <point x="-29.42857142857065" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.market.EuMarketHandler">
+      <point x="7.696969696969973" y="-115.0" />
+      <point x="4029.518181818182" y="1628.0" />
+      <point x="4162.071212121212" y="1628.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.mediator.ShopStartSales">
+      <point x="-69.14285714285688" y="-28.0" />
+      <point x="9637.74732356799" y="2626.0" />
+      <point x="7875.953565062388" y="2626.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.SwimState" target="com.profectus.fishshop.state.State">
+      <point x="0.0" y="-49.0" />
+      <point x="12024.867936164259" y="3110.0" />
+      <point x="11767.4253494123" y="3110.0" />
+      <point x="52.91666666666697" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Action" target="com.profectus.fishshop.visitor.FishFan">
+      <point x="0.0" y="-50.0" />
+      <point x="12614.367936164259" y="3080.0" />
+      <point x="12924.722102830925" y="3080.0" />
+      <point x="-72.08333333333394" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.builder.FishBuilder">
+      <point x="47.69999999999982" y="-71.0" />
+      <point x="1044.7624999999998" y="1332.0" />
+      <point x="1511.9231060606062" y="1332.0" />
+      <point x="1511.9231060606062" y="998.0" />
+      <point x="1611.8397727272732" y="998.0" />
+      <point x="-85.33333333333303" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatMediator" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="-87.85714285714312" y="-28.0" />
+      <point x="9599.596422205246" y="3300.0" />
+      <point x="7557.519903788106" y="3300.0" />
+      <point x="7557.519903788106" y="2980.0" />
+      <point x="7300.071212121212" y="2980.0" />
+      <point x="7300.071212121212" y="1038.0" />
+      <point x="11098.789078169746" y="1038.0" />
+      <point x="-39.33333333333394" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopFactory" target="com.profectus.fishshop.mediator.factory.ShopStartFactory">
+      <point x="-148.39999999999964" y="-28.0" />
+      <point x="10822.66294006239" y="2980.0" />
+      <point x="9706.890180710845" y="2980.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.Mediator" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="0.0" y="-60.0" />
+      <point x="11061.83743330563" y="1068.0" />
+      <point x="11138.122411503078" y="1068.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder">
+      <point x="-115.45454545454504" y="-115.0" />
+      <point x="3906.366666666667" y="1838.0" />
+      <point x="997.0625" y="1838.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.decorator.Stone">
+      <point x="76.969696969697" y="-115.0" />
+      <point x="4098.790909090909" y="1718.0" />
+      <point x="6469.321212121212" y="1718.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.facade.Boss" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="87.375" y="-93.0" />
+      <point x="10976.08743330563" y="1848.0" />
+      <point x="11064.414356382555" y="1848.0" />
+      <point x="11064.414356382555" y="1382.0" />
+      <point x="11041.29897176717" y="1382.0" />
+      <point x="-20.53846153846098" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopMediator" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="29.285714285713766" y="-28.0" />
+      <point x="10853.480626348788" y="3400.0" />
+      <point x="11285.86793616426" y="3400.0" />
+      <point x="11285.86793616426" y="1332.0" />
+      <point x="11143.991279459478" y="1332.0" />
+      <point x="82.15384615384573" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatFactory" target="com.profectus.fishshop.mediator.factory.ChatActionFactory">
+      <point x="-73.60000000000036" y="-28.0" />
+      <point x="9868.418891897092" y="3000.0" />
+      <point x="8447.776660544863" y="3000.0" />
+      <point x="8447.776660544863" y="2686.0" />
+      <point x="8165.203565062388" y="2686.0" />
+      <point x="34.25" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.decorator.Pump">
+      <point x="69.27272727272702" y="-115.0" />
+      <point x="4091.093939393939" y="1708.0" />
+      <point x="6255.321212121212" y="1708.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStartSales" target="com.profectus.fishshop.mediator.Action">
+      <point x="27.875" y="-49.0" />
+      <point x="7674.328565062388" y="2148.0" />
+      <point x="9042.31488254555" y="2148.0" />
+      <point x="-80.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WatchAction" target="com.profectus.fishshop.visitor.Student">
+      <point x="90.375" y="-50.0" />
+      <point x="13077.617936164259" y="3410.0" />
+      <point x="13475.742936164259" y="3410.0" />
+      <point x="13475.742936164259" y="3110.0" />
+      <point x="13466.826269497591" y="3110.0" />
+      <point x="14.41666666666606" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.command.Government">
+      <point x="-40.37837837837833" y="-127.0" />
+      <point x="9395.575186684011" y="3748.0" />
+      <point x="4124.439455364455" y="3748.0" />
+      <point x="-69.75" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.mediator.Action">
+      <point x="78.28571428571377" y="-28.0" />
+      <point x="8676.008803402005" y="2726.0" />
+      <point x="9249.828565062387" y="2726.0" />
+      <point x="9249.828565062387" y="2268.0" />
+      <point x="9140.31488254555" y="2268.0" />
+      <point x="17.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStartBoss" target="com.profectus.fishshop.mediator.Action">
+      <point x="-62.66666666666606" y="-49.0" />
+      <point x="10247.536898395723" y="2208.0" />
+      <point x="9182.31488254555" y="2208.0" />
+      <point x="59.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Plant" target="com.profectus.fishshop.decorator.SettlementDecorator">
+      <point x="64.66666666666697" y="-60.0" />
+      <point x="6048.567923426712" y="1402.0" />
+      <point x="6202.234590093379" y="1402.0" />
+      <point x="-67.5" y="82.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.env.Coldwater">
+      <point x="93.80000000000018" y="-71.0" />
+      <point x="1403.8625000000002" y="1382.0" />
+      <point x="2744.463756760045" y="1382.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.Shop" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="0.0" y="-28.0" />
+      <point x="3760.946212121212" y="284.0" />
+      <point x="6355.441018909187" y="284.0" />
+      <point x="-82.44999999999982" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatActionFactory" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-68.5" y="-28.0" />
+      <point x="8062.453565062388" y="1808.0" />
+      <point x="8876.072235486727" y="1808.0" />
+      <point x="-41.11764705882342" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.mediator.Action">
+      <point x="-34.57142857142935" y="-28.0" />
+      <point x="9672.318752139417" y="2616.0" />
+      <point x="9469.766065062387" y="2616.0" />
+      <point x="9469.766065062387" y="2238.0" />
+      <point x="9161.31488254555" y="2238.0" />
+      <point x="38.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.HappyState" target="com.profectus.fishshop.state.State">
+      <point x="0.0" y="-49.0" />
+      <point x="11615.867936164259" y="3120.0" />
+      <point x="11725.092016078966" y="3120.0" />
+      <point x="10.58333333333303" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStopSales" target="com.profectus.fishshop.mediator.Action">
+      <point x="83.25" y="-49.0" />
+      <point x="8518.578565062387" y="2208.0" />
+      <point x="9084.31488254555" y="2208.0" />
+      <point x="-38.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopMediator" target="com.profectus.fishshop.mediator.factory.ShopFactory">
+      <point x="-29.285714285713766" y="-28.0" />
+      <point x="10794.90919777736" y="3370.0" />
+      <point x="10878.312940062387" y="3370.0" />
+      <point x="-92.75" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="123.15151515151501" y="-115.0" />
+      <point x="4144.972727272727" y="1838.0" />
+      <point x="11053.414356382555" y="1838.0" />
+      <point x="11053.414356382555" y="1392.0" />
+      <point x="11020.760510228709" y="1392.0" />
+      <point x="-41.07692307692378" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.Colleague" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="-93.20000000000073" y="-49.0" />
+      <point x="8823.98988254555" y="1048.0" />
+      <point x="11111.900189280856" y="1048.0" />
+      <point x="-26.222222222222626" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WatchAction" target="com.profectus.fishshop.visitor.Worker">
+      <point x="-90.375" y="-50.0" />
+      <point x="12896.867936164259" y="3390.0" />
+      <point x="12462.867936164259" y="3390.0" />
+      <point x="12462.867936164259" y="3040.0" />
+      <point x="12568.451269497593" y="3040.0" />
+      <point x="-14.41666666666606" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.size.Big" target="com.profectus.fishshop.size.Size">
+      <point x="-64.66666666666697" y="-28.0" />
+      <point x="32.33333333333303" y="1048.0" />
+      <point x="196.0" y="1048.0" />
+      <point x="196.0" y="374.0" />
+      <point x="420.786484032772" y="374.0" />
+      <point x="-77.60000000000036" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.interpreter.AndExpression" target="com.profectus.fishshop.interpreter.SymbolExpression">
+      <point x="0.0" y="-49.0" />
+      <point x="3570.689455364455" y="3420.0" />
+      <point x="3607.314455364455" y="3420.0" />
+      <point x="-121.875" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.FishFan" target="com.profectus.fishshop.visitor.Action">
+      <point x="-43.25" y="72.0" />
+      <point x="12953.555436164259" y="3090.0" />
+      <point x="12648.79650759283" y="3090.0" />
+      <point x="34.42857142857065" y="-50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.builder.FishBuilder">
+      <point x="-92.36363636363603" y="-115.0" />
+      <point x="3929.457575757576" y="1808.0" />
+      <point x="1555.9231060606062" y="1808.0" />
+      <point x="1555.9231060606062" y="1038.0" />
+      <point x="1697.1731060606062" y="1038.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.memento.Caretaker" target="com.profectus.fishshop.memento.Memento">
+      <point x="-43.0" y="-60.0" />
+      <point x="9435.953565062387" y="3330.0" />
+      <point x="9554.206391897093" y="3330.0" />
+      <point x="20.125" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.Fish" target="com.profectus.fishshop.color.Color">
+      <point x="73.0" y="-171.0" />
+      <point x="1854.6826855758527" y="254.0" />
+      <point x="3094.863756760045" y="254.0" />
+      <point x="-38.80000000000018" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.strategy.SellStrategy" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="0.0" y="-39.0" />
+      <point x="4016.321212121212" y="304.0" />
+      <point x="6374.8410189091865" y="304.0" />
+      <point x="-63.05000000000018" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStopSales" target="com.profectus.fishshop.mediator.Action">
+      <point x="0.0" y="-49.0" />
+      <point x="8663.828565062387" y="2218.0" />
+      <point x="9091.31488254555" y="2218.0" />
+      <point x="-31.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.market.AuMarket">
+      <point x="-46.18181818181802" y="-115.0" />
+      <point x="3975.639393939394" y="1748.0" />
+      <point x="3493.9637567600453" y="1748.0" />
+      <point x="3493.9637567600453" y="76.0" />
+      <point x="3741.416018909186" y="76.0" />
+      <point x="-57.59999999999991" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.facade.Boss">
+      <point x="117.42857142857065" y="-28.0" />
+      <point x="8214.13213649096" y="2736.0" />
+      <point x="10621.703565062387" y="2736.0" />
+      <point x="10621.703565062387" y="2348.0" />
+      <point x="10866.86868330563" y="2348.0" />
+      <point x="-21.84375" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.HappyState" target="com.profectus.fishshop.state.Activity">
+      <point x="0.0" y="49.0" />
+      <point x="11615.867936164259" y="3360.0" />
+      <point x="11639.332221878543" y="3360.0" />
+      <point x="-7.0357142857146755" y="-104.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.proxy.Vendor" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="0.0" y="-49.0" />
+      <point x="6970.575661521951" y="334.0" />
+      <point x="6510.641018909186" y="334.0" />
+      <point x="72.75" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.mediator.factory.ShopActionFactory">
+      <point x="34.57142857142935" y="-28.0" />
+      <point x="9741.461609282276" y="2706.0" />
+      <point x="9984.453565062387" y="2706.0" />
+      <point x="-90.75" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="80.75675675675666" y="-127.0" />
+      <point x="9516.710321819144" y="3838.0" />
+      <point x="13549.409602830925" y="3838.0" />
+      <point x="13549.409602830925" y="1038.0" />
+      <point x="11190.566855947523" y="1038.0" />
+      <point x="52.44444444444525" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Student" target="com.profectus.fishshop.visitor.T">
+      <point x="0.0" y="-72.0" />
+      <point x="13452.409602830925" y="2756.0" />
+      <point x="12758.112045036494" y="2756.0" />
+      <point x="74.14285714285688" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.Activity" target="com.profectus.fishshop.state.EatState">
+      <point x="-91.46428571428623" y="-104.0" />
+      <point x="11554.90365044997" y="3420.0" />
+      <point x="11356.534602830925" y="3420.0" />
+      <point x="-54.33333333333303" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PurchaseAction" target="com.profectus.fishshop.visitor.Worker">
+      <point x="-90.375" y="-50.0" />
+      <point x="12635.867936164259" y="3410.0" />
+      <point x="12451.867936164259" y="3410.0" />
+      <point x="12451.867936164259" y="3030.0" />
+      <point x="12539.617936164259" y="3030.0" />
+      <point x="-43.25" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.color.Blue" target="com.profectus.fishshop.color.Color">
+      <point x="0.0" y="-39.0" />
+      <point x="38.80000000000018" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.proxy.SynVendor" target="com.profectus.fishshop.proxy.Vendor">
+      <point x="0.0" y="-28.0" />
+      <point x="7176.571212121212" y="1048.0" />
+      <point x="7047.718518664808" y="1048.0" />
+      <point x="77.14285714285688" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.mediator.ChatStartSales">
+      <point x="-39.14285714285688" y="-28.0" />
+      <point x="8057.5607079195315" y="2746.0" />
+      <point x="7646.453565062388" y="2746.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.EuMarketHandler" target="com.profectus.fishshop.market.EuMarket">
+      <point x="0.0" y="-28.0" />
+      <point x="-34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.T" target="com.profectus.fishshop.visitor.Action">
+      <point x="24.714285714286234" y="39.0" />
+      <point x="12708.683473607925" y="2776.0" />
+      <point x="12899.805436164259" y="2776.0" />
+      <point x="12899.805436164259" y="3070.0" />
+      <point x="12579.939364735688" y="3070.0" />
+      <point x="-34.42857142857065" y="-50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.FishAdaptor" target="com.profectus.fishshop.adaptor.CurrencyAdaptor">
+      <point x="66.33333333333348" y="-93.0" />
+      <point x="3670.2970900933788" y="1402.0" />
+      <point x="4816.821212121212" y="1402.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.memento.Original" target="com.profectus.fishshop.memento.Memento">
+      <point x="-61.75" y="-61.0" />
+      <point x="9187.703565062387" y="3310.0" />
+      <point x="9473.706391897093" y="3310.0" />
+      <point x="-60.375" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatFactory" target="com.profectus.fishshop.mediator.factory.ChatStopFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="9942.018891897093" y="2990.0" />
+      <point x="8597.72308911629" y="2990.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WalkAwayAction" target="com.profectus.fishshop.visitor.Student">
+      <point x="90.375" y="-50.0" />
+      <point x="13338.617936164259" y="3420.0" />
+      <point x="13486.742936164259" y="3420.0" />
+      <point x="13486.742936164259" y="3110.0" />
+      <point x="13495.659602830925" y="3110.0" />
+      <point x="43.25" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.WalkAwayAction">
+      <point x="67.29729729729661" y="-127.0" />
+      <point x="9503.250862359684" y="3808.0" />
+      <point x="13248.242936164259" y="3808.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.size.Middle" target="com.profectus.fishshop.observer.ObservableItem">
+      <point x="0.0" y="-28.0" />
+      <point x="311.0" y="1068.0" />
+      <point x="284.6428571428578" y="1068.0" />
+      <point x="-26.857142857142662" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.size.Small">
+      <point x="-143.10000000000014" y="-71.0" />
+      <point x="853.9624999999996" y="1402.0" />
+      <point x="526.0" y="1402.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.market.ZhMarketHandler">
+      <point x="53.87878787878799" y="-115.0" />
+      <point x="4075.7" y="1688.0" />
+      <point x="5850.217883652886" y="1688.0" />
+      <point x="5850.217883652886" y="1402.0" />
+      <point x="5904.071212121212" y="1402.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.ZhMarketHandler" target="com.profectus.fishshop.market.ZhMarket">
+      <point x="0.0" y="-39.0" />
+      <point x="5904.071212121212" y="1068.0" />
+      <point x="5723.321212121212" y="1068.0" />
+      <point x="35.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.interpreter.OrExpression" target="com.profectus.fishshop.interpreter.SymbolExpression">
+      <point x="-97.33333333333394" y="-49.0" />
+      <point x="3790.3561220311212" y="3420.0" />
+      <point x="3769.814455364455" y="3420.0" />
+      <point x="40.625" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.MiddleSwimFish" target="com.profectus.fishshop.fish.Fish">
+      <point x="0.0" y="-28.0" />
+      <point x="1320.289772727273" y="776.0" />
+      <point x="1702.0463219394887" y="776.0" />
+      <point x="-79.63636363636374" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.fish.Fish" target="com.profectus.fishshop.env.Env">
+      <point x="0.0" y="-171.0" />
+      <point x="1781.6826855758527" y="214.0" />
+      <point x="2414.063756760045" y="214.0" />
+      <point x="-77.60000000000002" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WalkAwayAction" target="com.profectus.fishshop.visitor.FishFan">
+      <point x="30.125" y="-50.0" />
+      <point x="13278.367936164259" y="3390.0" />
+      <point x="13271.449580770246" y="3390.0" />
+      <point x="13271.449580770246" y="3100.0" />
+      <point x="13040.055436164259" y="3100.0" />
+      <point x="43.25" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopMediator" target="com.profectus.fishshop.mediator.factory.ShopActionFactory">
+      <point x="-58.57142857142935" y="-28.0" />
+      <point x="10765.623483491647" y="3260.0" />
+      <point x="10136.518891897093" y="3260.0" />
+      <point x="10136.518891897093" y="2706.0" />
+      <point x="10044.953565062387" y="2706.0" />
+      <point x="-30.25" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.fish.TopSwimFish">
+      <point x="-53.87878787878799" y="-115.0" />
+      <point x="3967.942424242424" y="1758.0" />
+      <point x="2208.2364840327728" y="1758.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.Jessie" target="com.profectus.fishshop.fish.Fish">
+      <point x="64.875" y="-28.0" />
+      <point x="1918.0106060606058" y="1362.0" />
+      <point x="1910.7364840327728" y="1362.0" />
+      <point x="1910.7364840327728" y="806.0" />
+      <point x="1841.4099583031257" y="806.0" />
+      <point x="59.727272727272975" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="107.75757575757598" y="-115.0" />
+      <point x="4129.578787878788" y="1758.0" />
+      <point x="8807.54282372202" y="1758.0" />
+      <point x="-109.64705882352973" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopFactory" target="com.profectus.fishshop.mediator.factory.ShopStopFactory">
+      <point x="-74.20000000000073" y="-28.0" />
+      <point x="10896.862940062387" y="2970.0" />
+      <point x="10268.018891897093" y="2970.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.color.Red" target="com.profectus.fishshop.color.Color">
+      <point x="0.0" y="-39.0" />
+      <point x="3386.4637567600453" y="264.0" />
+      <point x="3211.263756760045" y="264.0" />
+      <point x="77.59999999999991" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.strategy.SellStrategy">
+      <point x="0.0" y="-115.0" />
+      <point x="4021.821212121212" y="1068.0" />
+      <point x="4031.571212121212" y="1068.0" />
+      <point x="15.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.mediator.ShopStopSales">
+      <point x="-69.14285714285688" y="-28.0" />
+      <point x="10198.876034754236" y="2586.0" />
+      <point x="8663.828565062387" y="2586.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.FishShop" target="com.profectus.fishshop.flyweight.Shop">
+      <point x="-75.0" y="-49.0" />
+      <point x="3825.321212121212" y="1068.0" />
+      <point x="3829.571212121212" y="1068.0" />
+      <point x="68.625" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStopBoss" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="27.25" y="-49.0" />
+      <point x="9157.578565062387" y="2278.0" />
+      <point x="9361.151660544863" y="2278.0" />
+      <point x="9361.151660544863" y="1808.0" />
+      <point x="8958.307529604373" y="1808.0" />
+      <point x="41.11764705882342" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.OpenCommand" target="com.profectus.fishshop.command.Command">
+      <point x="-94.0" y="-49.0" />
+      <point x="4635.189455364455" y="3330.0" />
+      <point x="4238.064455364455" y="3330.0" />
+      <point x="56.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.proxy.SynVendor" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="68.0" y="-28.0" />
+      <point x="7244.571212121212" y="1018.0" />
+      <point x="7375.595185575852" y="1018.0" />
+      <point x="7375.595185575852" y="324.0" />
+      <point x="6520.3410189091865" y="324.0" />
+      <point x="82.44999999999982" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Worker" target="com.profectus.fishshop.visitor.T">
+      <point x="0.0" y="-72.0" />
+      <point x="12582.867936164259" y="2776.0" />
+      <point x="12683.96918789364" y="2776.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.SynFactory" target="com.profectus.fishshop.proxy.Vendor">
+      <point x="-33.375" y="-28.0" />
+      <point x="7086.946212121212" y="1402.0" />
+      <point x="7064.071212121212" y="1402.0" />
+      <point x="7064.071212121212" y="1068.0" />
+      <point x="6996.289947236236" y="1068.0" />
+      <point x="25.71428571428578" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.SettlementDecorator" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-90.0" y="-82.0" />
+      <point x="6179.734590093379" y="1058.0" />
+      <point x="6298.234590093379" y="1058.0" />
+      <point x="6298.234590093379" y="364.0" />
+      <point x="6433.041018909185" y="364.0" />
+      <point x="-4.850000000000364" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.mediator.ChatStopSales">
+      <point x="0.0" y="-28.0" />
+      <point x="8597.72308911629" y="2646.0" />
+      <point x="8435.328565062387" y="2646.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.Action" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-42.0" y="-49.0" />
+      <point x="9080.81488254555" y="1828.0" />
+      <point x="8930.89576489849" y="1828.0" />
+      <point x="13.705882352940534" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.MelFactory" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-100.125" y="-28.0" />
+      <point x="6619.696212121212" y="1372.0" />
+      <point x="6478.522090093378" y="1372.0" />
+      <point x="6478.522090093378" y="374.0" />
+      <point x="6471.8410189091865" y="374.0" />
+      <point x="33.94999999999982" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.SwimState" target="com.profectus.fishshop.state.Activity">
+      <point x="59.0" y="49.0" />
+      <point x="12083.867936164259" y="3420.0" />
+      <point x="11737.832221878543" y="3420.0" />
+      <point x="91.46428571428532" y="-104.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Settlement" target="com.profectus.fishshop.market.AuMarket">
+      <point x="0.0" y="-39.0" />
+      <point x="6437.891018909186" y="96.0" />
+      <point x="3827.816018909186" y="96.0" />
+      <point x="28.800000000000182" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.memento.Original">
+      <point x="-8.972972972973366" y="-127.0" />
+      <point x="9426.980592089414" y="3678.0" />
+      <point x="9187.703565062387" y="3678.0" />
+      <point x="-61.75" y="61.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStopSales" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-27.75" y="-49.0" />
+      <point x="8407.578565062387" y="1828.0" />
+      <point x="8903.48400019261" y="1828.0" />
+      <point x="-13.705882352940534" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.composite.Composite" target="com.profectus.fishshop.composite.Species">
+      <point x="63.66666666666697" y="-82.0" />
+      <point x="1014.166666666667" y="1068.0" />
+      <point x="1003.5" y="1068.0" />
+      <point x="1003.5" y="374.0" />
+      <point x="915.1989840327724" y="374.0" />
+      <point x="11.9375" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.HungryState" target="com.profectus.fishshop.state.Activity">
+      <point x="0.0" y="49.0" />
+      <point x="11821.867936164259" y="3380.0" />
+      <point x="11681.54650759283" y="3380.0" />
+      <point x="35.17857142857156" y="-104.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.WorldFactory" target="com.profectus.fishshop.proxy.Vendor">
+      <point x="66.75" y="-28.0" />
+      <point x="6986.821212121212" y="1068.0" />
+      <point x="6970.575661521951" y="1068.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.mediator.ShopMediator">
+      <point x="8.972972972973366" y="-127.0" />
+      <point x="9444.92653803536" y="3678.0" />
+      <point x="10824.194912063074" y="3678.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.size.Big">
+      <point x="-120.60000000000014" y="-71.0" />
+      <point x="1189.4624999999996" y="1312.0" />
+      <point x="161.66666666666697" y="1312.0" />
+      <point x="64.66666666666652" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.facade.Boss">
+      <point x="13.45945945946005" y="-127.0" />
+      <point x="9449.413024521848" y="3688.0" />
+      <point x="11176.812940062387" y="3688.0" />
+      <point x="11176.812940062387" y="2418.0" />
+      <point x="10983.36868330563" y="2418.0" />
+      <point x="94.65625" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.facade.ShopFacade">
+      <point x="-13.45945945946005" y="-127.0" />
+      <point x="9422.494105602927" y="3688.0" />
+      <point x="7317.991787063076" y="3688.0" />
+      <point x="7317.991787063076" y="3010.0" />
+      <point x="7431.196808305632" y="3010.0" />
+      <point x="7431.196808305632" y="2776.0" />
+      <point x="7465.953565062388" y="2776.0" />
+      <point x="37.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStartSales" target="com.profectus.fishshop.observer.Sales">
+      <point x="-83.625" y="-49.0" />
+      <point x="7562.828565062388" y="2268.0" />
+      <point x="4093.258712121212" y="2268.0" />
+      <point x="71.4375" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WalkAwayAction" target="com.profectus.fishshop.visitor.Action">
+      <point x="-90.375" y="-50.0" />
+      <point x="13157.867936164259" y="3370.0" />
+      <point x="12710.767936164259" y="3370.0" />
+      <point x="96.39999999999964" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.MelFactory" target="com.profectus.fishshop.proxy.MelVendor">
+      <point x="-33.375" y="-28.0" />
+      <point x="6686.446212121212" y="1402.0" />
+      <point x="6663.571212121212" y="1402.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStopBoss" target="com.profectus.fishshop.facade.Boss">
+      <point x="62.33333333333394" y="-49.0" />
+      <point x="10580.036898395723" y="2338.0" />
+      <point x="10852.30618330563" y="2338.0" />
+      <point x="-36.40625" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.size.Middle" target="com.profectus.fishshop.size.Size">
+      <point x="-64.66666666666697" y="-28.0" />
+      <point x="246.33333333333303" y="1048.0" />
+      <point x="207.0" y="1048.0" />
+      <point x="207.0" y="384.0" />
+      <point x="459.5864840327722" y="384.0" />
+      <point x="-38.80000000000018" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-39.14285714285688" y="-28.0" />
+      <point x="8558.580231973434" y="2656.0" />
+      <point x="8278.453565062387" y="2656.0" />
+      <point x="8278.453565062387" y="1818.0" />
+      <point x="8889.778117839667" y="1818.0" />
+      <point x="-27.411764705882888" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.mediator.ChatStartBoss">
+      <point x="39.14285714285688" y="-28.0" />
+      <point x="8135.846422205245" y="2696.0" />
+      <point x="8890.828565062387" y="2696.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.fish.Fish">
+      <point x="15.900000000000546" y="-71.0" />
+      <point x="1012.9625000000005" y="1322.0" />
+      <point x="1165.039772727273" y="1322.0" />
+      <point x="1165.039772727273" y="766.0" />
+      <point x="1682.1372310303987" y="766.0" />
+      <point x="-99.54545454545405" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.Action">
+      <point x="53.83783783783838" y="-127.0" />
+      <point x="9489.791402900228" y="3778.0" />
+      <point x="12566.167936164258" y="3778.0" />
+      <point x="-48.20000000000073" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.CurrencyAdaptor" target="com.profectus.fishshop.market.EuMarket">
+      <point x="-79.19999999999982" y="-28.0" />
+      <point x="4737.621212121212" y="1058.0" />
+      <point x="4230.571212121212" y="1058.0" />
+      <point x="34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.SynFactory" target="com.profectus.fishshop.proxy.SynVendor">
+      <point x="33.375" y="-28.0" />
+      <point x="7153.696212121212" y="1402.0" />
+      <point x="7176.571212121212" y="1402.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatMediator" target="com.profectus.fishshop.mediator.Action">
+      <point x="-29.285714285713766" y="-28.0" />
+      <point x="9658.167850776674" y="3280.0" />
+      <point x="9283.047909754236" y="3280.0" />
+      <point x="9283.047909754236" y="2258.0" />
+      <point x="9147.31488254555" y="2258.0" />
+      <point x="24.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopMediator" target="com.profectus.fishshop.mediator.Mediator.Message">
+      <point x="87.85714285714312" y="-28.0" />
+      <point x="10912.05205492022" y="3420.0" />
+      <point x="11307.86793616426" y="3420.0" />
+      <point x="11307.86793616426" y="3080.0" />
+      <point x="11600.258682745634" y="3080.0" />
+      <point x="11600.258682745634" y="1048.0" />
+      <point x="11177.455744836414" y="1048.0" />
+      <point x="39.33333333333394" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.FishShop" target="com.profectus.fishshop.strategy.SellStrategy">
+      <point x="25.0" y="-49.0" />
+      <point x="3925.321212121212" y="1068.0" />
+      <point x="3940.071212121212" y="1068.0" />
+      <point x="-76.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PersonStructure" target="com.profectus.fishshop.iterator.Aggregate">
+      <point x="-74.25" y="-82.0" />
+      <point x="12257.117936164259" y="3420.0" />
+      <point x="12224.867936164259" y="3420.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.size.Small" target="com.profectus.fishshop.observer.ObservableItem">
+      <point x="-64.66666666666652" y="-28.0" />
+      <point x="461.33333333333303" y="1038.0" />
+      <point x="365.2142857142853" y="1038.0" />
+      <point x="53.71428571428578" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Stone" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="64.66666666666697" y="-60.0" />
+      <point x="6533.987878787879" y="1382.0" />
+      <point x="6468.822090093379" y="1382.0" />
+      <point x="6468.822090093379" y="384.0" />
+      <point x="6462.141018909186" y="384.0" />
+      <point x="24.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.Activity" target="com.profectus.fishshop.state.State">
+      <point x="-35.17857142857156" y="-104.0" />
+      <point x="11611.189364735686" y="3380.0" />
+      <point x="11513.867936164259" y="3380.0" />
+      <point x="11513.867936164259" y="3110.0" />
+      <point x="11703.9253494123" y="3110.0" />
+      <point x="-10.58333333333303" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.command.CloseCommand">
+      <point x="-31.405405405404963" y="-127.0" />
+      <point x="9404.548159656984" y="3728.0" />
+      <point x="4472.689455364455" y="3728.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStopBoss" target="com.profectus.fishshop.mediator.Action">
+      <point x="-81.75" y="-49.0" />
+      <point x="9048.578565062387" y="2268.0" />
+      <point x="9126.31488254555" y="2268.0" />
+      <point x="3.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WatchAction" target="com.profectus.fishshop.visitor.Action">
+      <point x="-30.125" y="-50.0" />
+      <point x="12957.117936164259" y="3380.0" />
+      <point x="12662.56793616426" y="3380.0" />
+      <point x="48.20000000000073" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.facade.ShopFacade" target="com.profectus.fishshop.facade.Boss">
+      <point x="18.5" y="-49.0" />
+      <point x="7447.453565062388" y="2288.0" />
+      <point x="10779.49368330563" y="2288.0" />
+      <point x="-109.21875" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.color.Green" target="com.profectus.fishshop.color.Color">
+      <point x="0.0" y="-39.0" />
+      <point x="2958.4637567600453" y="264.0" />
+      <point x="3133.663756760045" y="264.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.FishAdaptor" target="com.profectus.fishshop.market.AuMarket">
+      <point x="0.0" y="-93.0" />
+      <point x="3603.9637567600453" y="96.0" />
+      <point x="3799.0160189091857" y="96.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.observer.ObservableItem">
+      <point x="-123.15151515151501" y="-115.0" />
+      <point x="3898.669696969697" y="1848.0" />
+      <point x="418.5" y="1848.0" />
+      <point x="418.5" y="1048.0" />
+      <point x="338.3571428571422" y="1048.0" />
+      <point x="26.857142857142208" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.observer.Sales">
+      <point x="-117.42857142857065" y="-28.0" />
+      <point x="7979.274993633818" y="2766.0" />
+      <point x="7311.071212121212" y="2766.0" />
+      <point x="7311.071212121212" y="2378.0" />
+      <point x="3998.008712121212" y="2378.0" />
+      <point x="-23.8125" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.Student">
+      <point x="76.27027027026998" y="-127.0" />
+      <point x="9512.223835332657" y="3828.0" />
+      <point x="13497.742936164259" y="3828.0" />
+      <point x="13497.742936164259" y="3120.0" />
+      <point x="13524.492936164259" y="3120.0" />
+      <point x="72.08333333333394" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.color.Green">
+      <point x="143.09999999999945" y="-71.0" />
+      <point x="1140.1624999999995" y="1392.0" />
+      <point x="2958.4637567600453" y="1392.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.Mediator" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-61.615384615384755" y="60.0" />
+      <point x="11000.222048690248" y="1392.0" />
+      <point x="9010.38988254555" y="1392.0" />
+      <point x="93.20000000000073" y="-49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.CloseCommand" target="com.profectus.fishshop.facade.Boss">
+      <point x="95.20000000000073" y="-49.0" />
+      <point x="4567.889455364456" y="3350.0" />
+      <point x="10742.062940062387" y="3350.0" />
+      <point x="10742.062940062387" y="2398.0" />
+      <point x="10939.68118330563" y="2398.0" />
+      <point x="50.96875" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.observer.Sales">
+      <point x="-103.71428571428623" y="-28.0" />
+      <point x="9603.175894996559" y="2636.0" />
+      <point x="7333.071212121212" y="2636.0" />
+      <point x="7333.071212121212" y="2358.0" />
+      <point x="4029.758712121212" y="2358.0" />
+      <point x="7.9375" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.flyweight.Shop">
+      <point x="-23.09090909090901" y="-115.0" />
+      <point x="3998.730303030303" y="1718.0" />
+      <point x="3713.9637567600453" y="1718.0" />
+      <point x="3713.9637567600453" y="1068.0" />
+      <point x="3692.321212121212" y="1068.0" />
+      <point x="-68.625" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.ShopFlyweightFactory" target="com.profectus.fishshop.strategy.SellStrategy">
+      <point x="93.0" y="-28.0" />
+      <point x="3949.2137567600453" y="1392.0" />
+      <point x="4010.821212121212" y="1392.0" />
+      <point x="4010.821212121212" y="1068.0" />
+      <point x="4001.071212121212" y="1068.0" />
+      <point x="-15.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.OpenCommand" target="com.profectus.fishshop.observer.Sales">
+      <point x="-47.0" y="-49.0" />
+      <point x="4682.189455364455" y="3320.0" />
+      <point x="4606.439455364455" y="3320.0" />
+      <point x="4606.439455364455" y="2398.0" />
+      <point x="3966.258712121212" y="2398.0" />
+      <point x="-55.5625" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.mediator.ShopStopBoss">
+      <point x="34.57142857142935" y="-28.0" />
+      <point x="10302.590320468522" y="2726.0" />
+      <point x="10517.703565062387" y="2726.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.CurrencyAdaptor" target="com.profectus.fishshop.market.ZhMarket">
+      <point x="79.19999999999982" y="-28.0" />
+      <point x="4896.021212121212" y="1068.0" />
+      <point x="5652.821212121212" y="1068.0" />
+      <point x="-35.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.facade.Boss">
+      <point x="103.71428571428623" y="-28.0" />
+      <point x="10371.733177611379" y="2776.0" />
+      <point x="10720.062940062387" y="2776.0" />
+      <point x="10720.062940062387" y="2378.0" />
+      <point x="10910.55618330563" y="2378.0" />
+      <point x="21.84375" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.flyweight.ShopFlyweightFactory" target="com.profectus.fishshop.flyweight.Shop">
+      <point x="-31.0" y="-28.0" />
+      <point x="3825.2137567600453" y="1392.0" />
+      <point x="3789.821212121212" y="1392.0" />
+      <point x="3789.821212121212" y="1068.0" />
+      <point x="3783.821212121212" y="1068.0" />
+      <point x="22.875" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.interpreter.SymbolExpression" target="com.profectus.fishshop.interpreter.Expression">
+      <point x="0.0" y="-28.0" />
+      <point x="3729.189455364455" y="3120.0" />
+      <point x="3763.493026793026" y="3120.0" />
+      <point x="29.42857142857065" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopMediator" target="com.profectus.fishshop.mediator.Action">
+      <point x="-87.85714285714312" y="-28.0" />
+      <point x="10736.337769205933" y="3270.0" />
+      <point x="9290.047909754236" y="3270.0" />
+      <point x="9290.047909754236" y="2248.0" />
+      <point x="9154.31488254555" y="2248.0" />
+      <point x="31.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PersonStructure" target="com.profectus.fishshop.visitor.Action">
+      <point x="74.25" y="-82.0" />
+      <point x="12405.617936164259" y="3420.0" />
+      <point x="12517.96793616426" y="3420.0" />
+      <point x="-96.39999999999964" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.market.InMarketHandler">
+      <point x="46.18181818181802" y="-115.0" />
+      <point x="4068.00303030303" y="1678.0" />
+      <point x="5327.821212121212" y="1678.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.env.Marine" target="com.profectus.fishshop.env.Env">
+      <point x="0.0" y="-39.0" />
+      <point x="2316.463756760045" y="234.0" />
+      <point x="2491.6637567600455" y="234.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.Government" target="com.profectus.fishshop.command.Command">
+      <point x="-69.75" y="-60.0" />
+      <point x="4124.439455364455" y="3420.0" />
+      <point x="4154.064455364455" y="3420.0" />
+      <point x="-28.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.interpreter.TerminalExpression" target="com.profectus.fishshop.interpreter.Expression">
+      <point x="0.0" y="-49.0" />
+      <point x="3284.689455364455" y="3080.0" />
+      <point x="3645.7787410787414" y="3080.0" />
+      <point x="-88.28571428571377" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.UsMarketHandler" target="com.profectus.fishshop.market.UsMarket">
+      <point x="0.0" y="-39.0" />
+      <point x="5060.321212121212" y="1048.0" />
+      <point x="5032.651256760046" y="1048.0" />
+      <point x="34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.PurchaseAction">
+      <point x="58.32432432432506" y="-127.0" />
+      <point x="9494.277889386714" y="3788.0" />
+      <point x="12726.242936164259" y="3788.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.strategy.FlexShell" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="45.75" y="-39.0" />
+      <point x="5607.071212121212" y="344.0" />
+      <point x="6413.641018909186" y="344.0" />
+      <point x="-24.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.facade.Boss" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-87.375" y="-93.0" />
+      <point x="10801.33743330563" y="1768.0" />
+      <point x="9013.131059016137" y="1768.0" />
+      <point x="95.94117647058738" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.size.Big" target="com.profectus.fishshop.observer.ObservableItem">
+      <point x="64.66666666666652" y="-28.0" />
+      <point x="161.66666666666697" y="1068.0" />
+      <point x="257.7857142857147" y="1068.0" />
+      <point x="-53.71428571428578" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatActionFactory" target="com.profectus.fishshop.mediator.Action">
+      <point x="68.5" y="-28.0" />
+      <point x="8199.453565062387" y="2188.0" />
+      <point x="9070.31488254555" y="2188.0" />
+      <point x="-52.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatMediator" target="com.profectus.fishshop.mediator.factory.ChatActionFactory">
+      <point x="-58.57142857142935" y="-28.0" />
+      <point x="9628.88213649096" y="3290.0" />
+      <point x="7949.203565062388" y="3290.0" />
+      <point x="7949.203565062388" y="2776.0" />
+      <point x="8028.203565062388" y="2776.0" />
+      <point x="-102.75" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.state.HungryState" target="com.profectus.fishshop.state.State">
+      <point x="0.0" y="-49.0" />
+      <point x="11821.867936164259" y="3120.0" />
+      <point x="11746.258682745633" y="3120.0" />
+      <point x="31.75" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.composite.Leaf">
+      <point x="-79.5" y="-71.0" />
+      <point x="917.5625" y="1382.0" />
+      <point x="691.75" y="1382.0" />
+      <point x="-47.75" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.color.Blue">
+      <point x="120.59999999999945" y="-71.0" />
+      <point x="1430.6624999999995" y="1402.0" />
+      <point x="3172.4637567600453" y="1402.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStopSales" target="com.profectus.fishshop.observer.Sales">
+      <point x="-83.25" y="-49.0" />
+      <point x="8352.078565062387" y="2128.0" />
+      <point x="4125.008712121212" y="2128.0" />
+      <point x="103.1875" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.PurchaseAction" target="com.profectus.fishshop.visitor.FishFan">
+      <point x="30.125" y="-50.0" />
+      <point x="12756.367936164259" y="3100.0" />
+      <point x="12982.388769497593" y="3100.0" />
+      <point x="-14.41666666666606" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatFactory" target="com.profectus.fishshop.mediator.factory.ChatStartFactory">
+      <point x="-147.20000000000073" y="-28.0" />
+      <point x="9794.818891897092" y="3010.0" />
+      <point x="8096.703565062388" y="3010.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.command.OpenCommand" target="com.profectus.fishshop.facade.Boss">
+      <point x="94.0" y="-49.0" />
+      <point x="4823.189455364455" y="3370.0" />
+      <point x="10764.062940062387" y="3370.0" />
+      <point x="10764.062940062387" y="2418.0" />
+      <point x="10968.80618330563" y="2418.0" />
+      <point x="80.09375" y="93.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStartSales" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-27.875" y="-49.0" />
+      <point x="7618.578565062388" y="1798.0" />
+      <point x="8862.366353133786" y="1798.0" />
+      <point x="-54.82352941176396" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.InMarketHandler" target="com.profectus.fishshop.market.InMarket">
+      <point x="0.0" y="-39.0" />
+      <point x="34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.Jacky" target="com.profectus.fishshop.fish.Fish">
+      <point x="63.375" y="-28.0" />
+      <point x="1714.2981060606062" y="1362.0" />
+      <point x="1896.3439393939389" y="1362.0" />
+      <point x="1896.3439393939389" y="816.0" />
+      <point x="1821.5008673940347" y="816.0" />
+      <point x="39.81818181818198" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.factory.WorldFactory">
+      <point x="92.36363636363603" y="-115.0" />
+      <point x="4114.184848484848" y="1738.0" />
+      <point x="6920.071212121212" y="1738.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.observer.Sales">
+      <point x="-117.42857142857065" y="-28.0" />
+      <point x="8480.29451768772" y="2676.0" />
+      <point x="7322.071212121212" y="2676.0" />
+      <point x="7322.071212121212" y="2368.0" />
+      <point x="4013.883712121212" y="2368.0" />
+      <point x="-7.9375" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.manager.Jacky" target="com.profectus.fishshop.manager.FishShopManager">
+      <point x="21.125" y="-28.0" />
+      <point x="1672.0481060606062" y="1362.0" />
+      <point x="1687.8606060606062" y="1362.0" />
+      <point x="-50.40000000000009" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.adaptor.CurrencyAdaptor" target="com.profectus.fishshop.market.InMarket">
+      <point x="39.600000000000364" y="-28.0" />
+      <point x="4856.421212121212" y="1058.0" />
+      <point x="5259.321212121212" y="1058.0" />
+      <point x="-34.25" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.mediator.factory.ShopActionFactory">
+      <point x="0.0" y="-28.0" />
+      <point x="10268.018891897093" y="2566.0" />
+      <point x="10105.453565062387" y="2566.0" />
+      <point x="30.25" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStopSales" target="com.profectus.fishshop.observer.Sales">
+      <point x="-65.0" y="-49.0" />
+      <point x="8598.828565062387" y="2118.0" />
+      <point x="4140.883712121212" y="2118.0" />
+      <point x="119.0625" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.interpreter.AndExpression">
+      <point x="-53.83783783783838" y="-127.0" />
+      <point x="9382.115727224551" y="3778.0" />
+      <point x="3570.689455364455" y="3778.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.observer.Sales">
+      <point x="-71.78378378378329" y="-127.0" />
+      <point x="9364.169781278604" y="3818.0" />
+      <point x="3155.7029688779685" y="3818.0" />
+      <point x="3155.7029688779685" y="2408.0" />
+      <point x="3902.758712121212" y="2408.0" />
+      <point x="-119.0625" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="22.432432432431597" y="-127.0" />
+      <point x="9458.385997494821" y="3708.0" />
+      <point x="11318.86793616426" y="3708.0" />
+      <point x="11318.86793616426" y="1312.0" />
+      <point x="11185.0682025364" y="1312.0" />
+      <point x="123.23076923076951" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ChatStartBoss" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-82.125" y="-49.0" />
+      <point x="8808.703565062387" y="2138.0" />
+      <point x="8917.18988254555" y="2138.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="30.78787878787898" y="-115.0" />
+      <point x="4052.609090909091" y="1658.0" />
+      <point x="4707.321212121212" y="1658.0" />
+      <point x="4707.321212121212" y="324.0" />
+      <point x="6394.241018909186" y="324.0" />
+      <point x="-43.649999999999636" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.mediator.ShopStartBoss">
+      <point x="69.14285714285688" y="-28.0" />
+      <point x="9776.033037853704" y="2716.0" />
+      <point x="10310.203565062387" y="2716.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.market.CaMarketHandler" target="com.profectus.fishshop.market.CaMarketHandler.Inner">
+      <point x="-93.375" y="-39.0" />
+      <point x="4457.529545454545" y="1392.0" />
+      <point x="4501.904545454545" y="1392.0" />
+      <point x="-32.666666666666515" y="16.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStartFactory" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="0.0" y="-28.0" />
+      <point x="9706.890180710845" y="2606.0" />
+      <point x="9565.516065062387" y="2606.0" />
+      <point x="9565.516065062387" y="1798.0" />
+      <point x="8972.013411957314" y="1798.0" />
+      <point x="54.82352941176396" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.market.UsMarketHandler">
+      <point x="38.484848484848044" y="-115.0" />
+      <point x="4060.30606060606" y="1668.0" />
+      <point x="5060.321212121212" y="1668.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.composite.Species">
+      <point x="-111.30000000000018" y="-71.0" />
+      <point x="885.7624999999998" y="1392.0" />
+      <point x="633.5" y="1392.0" />
+      <point x="633.5" y="374.0" />
+      <point x="819.6989840327724" y="374.0" />
+      <point x="-83.5625" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStopBoss" target="com.profectus.fishshop.mediator.Action">
+      <point x="-62.33333333333394" y="-49.0" />
+      <point x="10455.370231729055" y="2188.0" />
+      <point x="9196.31488254555" y="2188.0" />
+      <point x="73.5" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.builder.ColdBlueBigFishBuilder">
+      <point x="-107.75757575757598" y="-115.0" />
+      <point x="3914.063636363636" y="1828.0" />
+      <point x="1310.0625" y="1828.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Pump" target="com.profectus.fishshop.decorator.SettlementDecorator">
+      <point x="0.0" y="-60.0" />
+      <point x="6255.321212121212" y="1402.0" />
+      <point x="6247.234590093379" y="1402.0" />
+      <point x="-22.5" y="82.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.proxy.MelVendor" target="com.profectus.fishshop.decorator.Settlement">
+      <point x="-68.0" y="-28.0" />
+      <point x="6595.571212121212" y="1068.0" />
+      <point x="6647.047090093378" y="1068.0" />
+      <point x="6647.047090093378" y="364.0" />
+      <point x="6481.541018909185" y="364.0" />
+      <point x="43.649999999999636" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.ColdBlueBigFishBuilder" target="com.profectus.fishshop.fish.Fish">
+      <point x="13.400000000000546" y="-71.0" />
+      <point x="1323.4625000000005" y="1322.0" />
+      <point x="1424.789772727273" y="1322.0" />
+      <point x="1424.789772727273" y="786.0" />
+      <point x="1721.9554128485797" y="786.0" />
+      <point x="-59.727272727272975" y="171.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-22.432432432431597" y="-127.0" />
+      <point x="9413.521132629958" y="3708.0" />
+      <point x="6410.984218877969" y="3708.0" />
+      <point x="6410.984218877969" y="2990.0" />
+      <point x="7344.453565062388" y="2990.0" />
+      <point x="7344.453565062388" y="1778.0" />
+      <point x="8834.954588427903" y="1778.0" />
+      <point x="-82.23529411764684" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.visitor.FishFan">
+      <point x="71.78378378378329" y="-127.0" />
+      <point x="9507.73734884617" y="3818.0" />
+      <point x="13379.242936164259" y="3818.0" />
+      <point x="13379.242936164259" y="3090.0" />
+      <point x="13068.888769497593" y="3090.0" />
+      <point x="72.08333333333394" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.mediator.factory.ChatActionFactory">
+      <point x="-78.28571428571377" y="-28.0" />
+      <point x="8519.437374830577" y="2666.0" />
+      <point x="8233.703565062387" y="2666.0" />
+      <point x="102.75" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.env.Marine">
+      <point x="111.30000000000018" y="-71.0" />
+      <point x="1108.3625000000002" y="1372.0" />
+      <point x="2316.463756760045" y="1372.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.ShopStartSales" target="com.profectus.fishshop.observer.Sales">
+      <point x="-65.33333333333303" y="-49.0" />
+      <point x="7810.620231729055" y="2138.0" />
+      <point x="4109.133712121212" y="2138.0" />
+      <point x="87.3125" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatFactory" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="73.60000000000036" y="-28.0" />
+      <point x="10015.618891897093" y="3030.0" />
+      <point x="11241.86793616426" y="3030.0" />
+      <point x="11241.86793616426" y="1372.0" />
+      <point x="11061.83743330563" y="1372.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.manager.Jacky">
+      <point x="-84.66666666666697" y="-115.0" />
+      <point x="3937.154545454545" y="1798.0" />
+      <point x="1650.9231060606062" y="1798.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.facade.ShopFacade" target="com.profectus.fishshop.observer.Sales">
+      <point x="-55.5" y="-49.0" />
+      <point x="7373.453565062388" y="2348.0" />
+      <point x="4045.633712121212" y="2348.0" />
+      <point x="23.8125" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.interpreter.OrExpression" target="com.profectus.fishshop.interpreter.Expression">
+      <point x="97.33333333333394" y="-49.0" />
+      <point x="3985.022788697789" y="3420.0" />
+      <point x="4024.501955364455" y="3420.0" />
+      <point x="4024.501955364455" y="3110.0" />
+      <point x="3822.350169650169" y="3110.0" />
+      <point x="88.28571428571377" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.builder.MarineGreenSmallFishBuilder" target="com.profectus.fishshop.composite.Composite">
+      <point x="-15.900000000000091" y="-71.0" />
+      <point x="981.1624999999995" y="1362.0" />
+      <point x="926.625" y="1362.0" />
+      <point x="-23.875" y="82.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.manager.FishShopManager">
+      <point x="-76.969696969697" y="-115.0" />
+      <point x="3944.851515151515" y="1788.0" />
+      <point x="1745.9231060606062" y="1788.0" />
+      <point x="1745.9231060606062" y="1352.0" />
+      <point x="1738.2606060606058" y="1352.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopFactory" target="com.profectus.fishshop.mediator.Mediator">
+      <point x="74.20000000000073" y="-28.0" />
+      <point x="11045.262940062388" y="3050.0" />
+      <point x="11263.86793616426" y="3050.0" />
+      <point x="11263.86793616426" y="1352.0" />
+      <point x="11102.914356382556" y="1352.0" />
+      <point x="41.07692307692378" y="60.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.size.Small" target="com.profectus.fishshop.size.Size">
+      <point x="64.66666666666697" y="-28.0" />
+      <point x="590.666666666667" y="1018.0" />
+      <point x="498.3864840327724" y="1018.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.observer.Sales" target="com.profectus.fishshop.fish.BottomSwimFish">
+      <point x="-61.57575757575796" y="-115.0" />
+      <point x="3960.245454545454" y="1768.0" />
+      <point x="2015.2364840327728" y="1768.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.proxy.Vendor" target="com.profectus.fishshop.market.AuMarket">
+      <point x="60.0" y="-49.0" />
+      <point x="7030.575661521951" y="816.0" />
+      <point x="13576.612380608702" y="816.0" />
+      <point x="13576.612380608702" y="86.0" />
+      <point x="3856.6160189091856" y="86.0" />
+      <point x="57.59999999999991" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.FishFan" target="com.profectus.fishshop.visitor.T">
+      <point x="0.0" y="-72.0" />
+      <point x="12996.805436164259" y="2766.0" />
+      <point x="12733.397759322208" y="2766.0" />
+      <point x="49.42857142857065" y="39.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.factory.SynFactory" target="com.profectus.fishshop.factory.WorldFactory">
+      <point x="-100.125" y="-28.0" />
+      <point x="7020.196212121212" y="1402.0" />
+      <point x="7009.071212121212" y="1402.0" />
+      <point x="89.0" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.Student" target="com.profectus.fishshop.visitor.Action">
+      <point x="-43.25" y="72.0" />
+      <point x="13409.159602830925" y="3120.0" />
+      <point x="12717.653650449973" y="3120.0" />
+      <point x="103.28571428571377" y="-50.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.visitor.WatchAction" target="com.profectus.fishshop.visitor.FishFan">
+      <point x="30.125" y="-50.0" />
+      <point x="13017.367936164259" y="3100.0" />
+      <point x="13011.222102830925" y="3100.0" />
+      <point x="14.41666666666606" y="72.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ShopStopFactory" target="com.profectus.fishshop.observer.Sales">
+      <point x="-103.71428571428623" y="-28.0" />
+      <point x="10164.304606182806" y="2596.0" />
+      <point x="7524.453565062388" y="2596.0" />
+      <point x="7524.453565062388" y="2278.0" />
+      <point x="4077.383712121212" y="2278.0" />
+      <point x="55.5625" y="115.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.Client" target="com.profectus.fishshop.interpreter.Expression">
+      <point x="-58.32432432432506" y="-127.0" />
+      <point x="9377.629240738064" y="3788.0" />
+      <point x="3409.189455364455" y="3788.0" />
+      <point x="3409.189455364455" y="3090.0" />
+      <point x="3675.207312507312" y="3090.0" />
+      <point x="-58.85714285714312" y="28.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.decorator.Stone" target="com.profectus.fishshop.decorator.SettlementDecorator">
+      <point x="-64.66666666666697" y="-60.0" />
+      <point x="6404.654545454545" y="1402.0" />
+      <point x="6337.234590093379" y="1402.0" />
+      <point x="67.5" y="82.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStartFactory" target="com.profectus.fishshop.mediator.Colleague">
+      <point x="-78.28571428571377" y="-28.0" />
+      <point x="8018.417850776675" y="2756.0" />
+      <point x="7513.453565062388" y="2756.0" />
+      <point x="7513.453565062388" y="1788.0" />
+      <point x="8848.660470780844" y="1788.0" />
+      <point x="-68.52941176470631" y="49.0" />
+    </edge>
+    <edge source="com.profectus.fishshop.mediator.factory.ChatStopFactory" target="com.profectus.fishshop.mediator.ChatStopBoss">
+      <point x="39.14285714285688" y="-28.0" />
+      <point x="8636.865946259148" y="2716.0" />
+      <point x="9130.328565062387" y="2716.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8921151821781078" x="3471.930949037701" y="595.9518535021347" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
