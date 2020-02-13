@@ -1,6 +1,6 @@
 package com.profectus.fishshop.visitor;
 
-public class FishFan implements T {
+public class FishFan implements Person {
 
     @Override
     public void accept(Action action) {

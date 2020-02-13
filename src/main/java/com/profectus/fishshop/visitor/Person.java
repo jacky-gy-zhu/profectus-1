@@ -1,6 +1,6 @@
 package com.profectus.fishshop.visitor;
 
-public interface T {
+public interface Person {
 
     void accept(Action action);
 

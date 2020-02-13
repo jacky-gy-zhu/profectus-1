@@ -95,9 +95,9 @@ public class Client {
 
     public static void visitor() {
         System.out.println("---------visitor()---------");
-        T worker = new Worker();
-        T student = new Student();
-        T fishFan = new FishFan();
+        Person worker = new Worker();
+        Person student = new Student();
+        Person fishFan = new FishFan();
         // show people who will purchase
         PersonStructure structure = new PersonStructure();
         structure.add(fishFan); // add people
@@ -120,16 +120,16 @@ public class Client {
 
     public static void iterator() {
         System.out.println("---------iterator()---------");
-        T worker = new Worker();
-        T student = new Student();
-        T fishFan = new FishFan();
+        Person worker = new Worker();
+        Person student = new Student();
+        Person fishFan = new FishFan();
         PersonStructure structure = new PersonStructure();
         structure.add(worker);
         structure.add(student);
         structure.add(fishFan);
-        Iterator<T> it = structure.iterator();
+        Iterator<Person> it = structure.iterator();
         while (it.hasNext()) {
-            T person = it.next();
+            Person person = it.next();
             System.out.println(person.getName());
         }
     }
