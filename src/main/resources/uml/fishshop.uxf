@@ -998,7 +998,7 @@ operate()</panel_attributes>
     <id>UMLInterface</id>
     <coordinates>
       <x>2100</x>
-      <y>730</y>
+      <y>740</y>
       <w>80</w>
       <h>100</h>
     </coordinates>
@@ -1014,16 +1014,16 @@ operate()</panel_attributes>
       <x>1810</x>
       <y>670</y>
       <w>300</w>
-      <h>130</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>280.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>280.0;120.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>2320</x>
-      <y>760</y>
+      <y>770</y>
       <w>160</w>
       <h>40</h>
     </coordinates>
@@ -1034,7 +1034,7 @@ operate()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2170</x>
-      <y>770</y>
+      <y>780</y>
       <w>170</w>
       <h>30</h>
     </coordinates>
@@ -1574,7 +1574,7 @@ bg=blue</panel_attributes>
 --
 mediator
 --
-sendMessage(message)
+/sendMessage(message)/
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -2088,12 +2088,13 @@ notifyObservers()</panel_attributes>
     <coordinates>
       <x>1910</x>
       <y>1770</y>
-      <w>280</w>
-      <h>70</h>
+      <w>290</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Observer Pattern
 /*ObservableItem extends Observable*/
 /*Sales implements Observer*/
+*- update(Observable o, Object arg)*
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
